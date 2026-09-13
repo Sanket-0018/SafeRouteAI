@@ -1,0 +1,64 @@
+hazard_id,location_name,district,highway,latitude,longitude,closest_ml_city,closest_ml_zone_id,distance_to_closest_zone_km,covered_by_ml_zone_5km,covered_by_ml_zone_15km,recommendation
+MH-BS-001,Navale Bridge / Katraj-Dehu Road Bypass,Pune,NH-48,18.4578,73.8211,Pune,349,2.01,True,True,HYBRID_ML_AND_OFFICIAL
+MH-BS-002,Shikrapur Junction / Wagholi Merge,Pune,NH-753F,18.6942,74.1258,Pune,345,15.45,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-003,Shirur Bypass / Inamgaon Phata,Pune,NH-753F,18.8285,74.3725,Pune,345,45.28,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-004,Loni Kalbhor / Kadamwakvasti Phata,Pune,NH-65,18.489,74.021,Pune,375,5.6,False,True,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-005,Urse Toll Plaza Approach,Pune,Mumbai–Pune Expressway / NH-48,18.7245,73.682,Pune,356,7.12,False,True,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-006,Khed Ghat S-Bend (Rajgurunagar),Pune,NH-60,18.862,73.911,Pune,360,20.41,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-007,Somatane Phata / Talegaon Dabhade,Pune,Old NH-48,18.718,73.662,Pune,356,7.92,False,True,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-008,Borghat Section / Khandala Ghat (KM 42–48),Raigad,Mumbai–Pune Expressway,18.7612,73.3489,Pune,356,40.13,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-009,Bhatan Tunnel Approach (Panvel end),Raigad,Mumbai–Pune Expressway,18.889,73.185,Mumbai,311,21.91,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-010,Madap Waterfall Curve (Khalapur),Raigad,Mumbai–Pune Expressway,18.825,73.284,Mumbai,311,34.3,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-011,Gaimukh Ghat / Ghodbunder Road,Thane,SH-42,19.289,72.934,Mumbai,313,6.12,False,True,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-012,Kasara Ghat / Thal Ghat (Thane–Nashik Border),Thane,NH-160,19.678,73.491,Mumbai,302,70.56,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-013,Charoti Naka / Kasa Curve (Palghar),Palghar,NH-48,19.864,72.887,Mumbai,314,64.03,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-014,Manor Junction / Mastan Naka,Palghar,NH-48,19.742,72.915,Mumbai,314,50.8,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-015,Supa Industrial Area / Parner Phata,Ahmednagar,NH-753F,18.995,74.528,Pune,351,68.55,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-016,Kedgaon Bypass / Daund Road Junction,Ahmednagar,NH-753F,19.076,74.722,Pune,351,90.73,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-017,Nevasa Phata / Ghogargaon,Ahmednagar,SH-27,19.531,74.912,Pune,351,136.96,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-018,Shirdi Bypass / Kolhar Phata,Ahmednagar,NH-160,19.684,74.451,Pune,351,122.32,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-019,Sinnar Bypass / Musalgaon MIDC,Nashik,NH-60,19.865,74.012,Mumbai,302,126.86,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-020,Dwarka Circle / Mumbai Naka Flyover Approach,Nashik,NH-160 / NH-848,19.988,73.801,Mumbai,302,117.76,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-021,Chandwad Ghat / Rahud S-Curve,Nashik,NH-53 / NH-3,20.315,74.248,Mumbai,302,176.74,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-022,Dhule Bypass / Avhan Phata Crossroads,Dhule,NH-53 / NH-52,20.892,74.774,Pune,351,259.68,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-023,Laling Ghat S-Curves / Forest Section,Dhule,NH-53,20.812,74.731,Pune,351,249.81,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-024,Bhusawal Yaval Phata / Ordnance Factory Gate,Jalgaon,NH-53,21.045,75.789,Pune,351,324.46,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-025,Paldhi Phata / Erandol Bypass,Jalgaon,NH-53,20.925,75.385,Pune,351,290.07,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-026,Shahada Phata / Prakasha Bridge Approach,Nandurbar,NH-753B,21.542,74.452,Mumbai,302,296.41,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-027,Waluj MIDC / Oasis Chowk,Chhatrapati Sambhajinagar,NH-52,19.832,75.241,Pune,351,184.98,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-028,Shendra MIDC / Cambridge Chowk,Chhatrapati Sambhajinagar,NH-753F,19.882,75.452,Pune,351,205.14,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-029,Jalna Industrial Bypass / Devalgaon Raja Phata,Jalna,NH-753F,19.865,75.908,Pune,351,242.5,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-030,Georai Bypass / Gevrai Phata,Beed,NH-52,19.264,75.752,Pune,345,197.81,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-031,Ausa Ring Road / MIDC Phata (Latur),Latur,NH-361,18.254,76.512,Hyderabad,228,196.84,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-032,Tuljapur Ghat / Temple Bypass,Dharashiv,NH-52 / NH-65,18.012,76.082,Pune,348,225.88,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-033,Vishnupuri / Swami Ramanand Teerth University Phata,Nanded,NH-161,19.115,77.291,Hyderabad,228,199.22,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-034,Jintur Road / Gangakhed Phata,Parbhani,NH-61,19.278,76.782,Hyderabad,228,244.37,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-035,Kalamnuri Bypass / Aundha Nagnath Phata,Hingoli,NH-161,19.665,77.085,Hyderabad,228,263.3,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-036,Sindkhed Raja Interchange (Samruddhi Mahamarg KM 370),Buldhana,Samruddhi Mahamarg,20.002,76.134,Pune,351,270.61,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-037,Mehkar / Dongaon Phata Crossing,Buldhana,NH-753C,20.158,76.572,Pune,351,318.69,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-038,Balapur Bypass / Nimba Phata,Akola,NH-53,20.665,76.782,Pune,351,368.05,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-039,Karanja Lad Interchange (Samruddhi Mahamarg KM 220),Washim,Samruddhi Mahamarg,20.478,77.491,Hyderabad,210,332.64,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-040,Badnera / Amravati Outer Ring Road Junction,Amravati,NH-53,20.865,77.728,Hyderabad,210,369.53,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-041,Nandgaon Peth MIDC / Morshi Phata,Amravati,NH-53,21.034,77.839,Hyderabad,210,386.45,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-042,Darwha Bypass / Bori Phata,Yavatmal,NH-361,20.315,77.772,Hyderabad,210,308.5,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-043,Talegaon Shyamji Pant / Karanja Road,Wardha,NH-53 / NH-361,20.952,78.431,Hyderabad,245,374.41,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-044,Butibori MIDC / Outer Ring Road Junction,Nagpur,NH-44 / NH-53,20.925,78.995,Hyderabad,245,375.17,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-045,Borkhedi Toll Plaza / Umred Road Crossing,Nagpur,NH-44,20.884,79.012,Hyderabad,245,370.92,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-046,Wadi Octroi Naka / Amravati Road Entrance,Nagpur,NH-53,21.148,79.002,Hyderabad,245,399.82,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-047,Mansar S-Curve / Ramtek Phata (NH-44 North),Nagpur,NH-44,21.401,79.255,Hyderabad,245,431.85,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-048,Kardi Phata / Wainganga Bridge Approach (Bhandara),Bhandara,NH-53,21.164,79.658,Hyderabad,245,416.46,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-049,Kudwa Phata / Gondia Bypass,Gondia,NH-753,21.458,80.198,Hyderabad,243,466.35,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-050,Tadali MIDC / Coal Haulage Crossing (Chandrapur),Chandrapur,NH-930D / NH-353B,19.985,79.224,Hyderabad,245,277.89,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-051,Armori Forest Section / Wainganga Basin Curve,Gadchiroli,NH-353C,20.452,79.985,Hyderabad,243,354.77,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-052,Khambatki Ghat S-Bend / Tunnel Approach,Satara,NH-48,18.012,74.024,Pune,353,45.94,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-053,Bhuinj Phata / Pachwad Junction,Satara,NH-48,17.882,74.015,Pune,353,60.12,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-054,Peth Naka / Islampur Junction (Sangli/Kolhapur),Sangli,NH-48,17.054,74.241,Pune,353,154.9,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-055,Shiroli MIDC / Tawde Hotel Chowk (Kolhapur),Kolhapur,NH-48,16.745,74.278,Pune,353,189.38,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-056,Kagal Border Checkpost / MIDC Junction,Kolhapur,NH-48,16.578,74.318,Pune,353,208.41,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-057,Tembhurni Junction / Kurduvadi Phata,Solapur,NH-65,18.065,75.185,Pune,348,132.81,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-058,Mohol Bypass / Pandharpur Road Junction,Solapur,NH-65,17.812,75.648,Pune,348,188.55,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-059,Solapur Outer Ring Road / Degaon Naka,Solapur,NH-52 / NH-65,17.689,75.874,Pune,348,215.9,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-060,Kashedi Ghat S-Curves / Tunnel Approach (Poladpur/Khed),Ratnagiri,NH-66,17.915,73.452,Pune,340,62.44,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-061,Sangameshwar S-Turn / Shastri River Bridge Approach,Ratnagiri,NH-66,17.185,73.548,Pune,340,137.86,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-062,Zarap Bypass / Kudal Junction (Sindhudurg),Sindhudurg,NH-66,15.985,73.712,Pune,346,269.89,False,False,OFFICIAL_GOVERNMENT_ONLY
+MH-BS-063,Sawantwadi Bypass / Insuli Checkpost,Sindhudurg,NH-66,15.892,73.824,Pune,346,280.03,False,False,OFFICIAL_GOVERNMENT_ONLY

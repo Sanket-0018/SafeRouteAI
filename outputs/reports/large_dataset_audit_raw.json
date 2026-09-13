@@ -1,0 +1,219 @@
+{
+  "total_rows": 1000000,
+  "total_cols": 15,
+  "missing_values": {
+    "id": 0,
+    "date": 0,
+    "time": 0,
+    "latitude": 0,
+    "longitude": 0,
+    "severity": 0,
+    "road_condition": 0,
+    "weather": 0,
+    "vehicles_involved": 0,
+    "injuries": 0,
+    "fatalities": 0,
+    "accident_cause": 0,
+    "traffic_density": 0,
+    "lane_utilization": 0,
+    "nearby_accidents": 0
+  },
+  "duplicate_rows": 0,
+  "duplicate_rows_no_id": 0,
+  "date_range": {
+    "min": "2020-01-01",
+    "max": "2024-01-01"
+  },
+  "coordinates": {
+    "lat_min": 8.0002,
+    "lat_max": 37.0,
+    "lat_mean": 21.290126777599998,
+    "lat_std": 6.3692823876097835,
+    "lon_min": 68.0001,
+    "lon_max": 96.9998,
+    "lon_mean": 79.5069959761,
+    "lon_std": 6.466013326712769,
+    "pct_in_india_box": 100.0,
+    "pct_in_maha_box": 21.38,
+    "n_unique_coords": 999746,
+    "dup_coord_rate": 0.03,
+    "spatial_grid_10x10_cv": 1.9482,
+    "spatial_grid_10x10_min": 2872,
+    "spatial_grid_10x10_max": 103701
+  },
+  "categorical_distributions": {
+    "severity": {
+      "Low": 0.2938,
+      "High": 0.2708,
+      "Medium": 0.2605,
+      "Critical": 0.1749
+    },
+    "road_condition": {
+      "Dry": 0.3099,
+      "Wet": 0.3017,
+      "Potholed": 0.1554,
+      "Muddy": 0.0949,
+      "Flooding": 0.0861,
+      "Construction": 0.052
+    },
+    "weather": {
+      "Cloudy": 0.2748,
+      "Rain": 0.254,
+      "Clear": 0.2424,
+      "Heavy Rain": 0.1132,
+      "Fog": 0.0638,
+      "Dust Storm": 0.0519
+    },
+    "accident_cause": {
+      "Poor Road": 0.3225,
+      "Human Error": 0.2758,
+      "Weather": 0.261,
+      "Signal Violation": 0.0636,
+      "Mechanical Failure": 0.0608,
+      "Animal Crossing": 0.0161
+    },
+    "traffic_density": {
+      "Moderate": 0.38,
+      "Heavy": 0.345,
+      "Light": 0.275
+    },
+    "lane_utilization": {
+      "Congested Multi-Lane": 0.345,
+      "Lane Change": 0.2838,
+      "Single Lane": 0.2543,
+      "Overtaking": 0.1169
+    }
+  },
+  "numerical_stats": {
+    "vehicles_involved": {
+      "min": 1.0,
+      "max": 4.0,
+      "mean": 2.4994,
+      "std": 1.1184,
+      "median": 2.0,
+      "value_counts": {
+        "1": 250320,
+        "4": 250044,
+        "2": 250017,
+        "3": 249619
+      }
+    },
+    "injuries": {
+      "min": 0.0,
+      "max": 8.0,
+      "mean": 1.814,
+      "std": 2.0642,
+      "median": 1.0,
+      "value_counts": {
+        "0": 380351,
+        "2": 178566,
+        "1": 155083,
+        "4": 92818,
+        "3": 92790
+      }
+    },
+    "fatalities": {
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.3981,
+      "std": 0.7679,
+      "median": 0.0,
+      "value_counts": {
+        "0": 733109,
+        "1": 179513,
+        "3": 43839,
+        "2": 43539
+      }
+    },
+    "nearby_accidents": {
+      "min": 0.0,
+      "max": 50.0,
+      "mean": 17.7142,
+      "std": 16.417,
+      "median": 12.0,
+      "value_counts": {
+        "50": 84631,
+        "5": 73978,
+        "2": 60724,
+        "4": 60632,
+        "3": 60225
+      }
+    }
+  },
+  "correlations": {
+    "vehicles_involved": {
+      "vehicles_involved": 1.0,
+      "injuries": 0.0016,
+      "fatalities": 0.0008,
+      "nearby_accidents": 0.0016,
+      "latitude": -0.0007,
+      "longitude": -0.0005
+    },
+    "injuries": {
+      "vehicles_involved": 0.0016,
+      "injuries": 1.0,
+      "fatalities": 0.5869,
+      "nearby_accidents": -0.0012,
+      "latitude": 0.0014,
+      "longitude": 0.0012
+    },
+    "fatalities": {
+      "vehicles_involved": 0.0008,
+      "injuries": 0.5869,
+      "fatalities": 1.0,
+      "nearby_accidents": -0.001,
+      "latitude": 0.0002,
+      "longitude": 0.0012
+    },
+    "nearby_accidents": {
+      "vehicles_involved": 0.0016,
+      "injuries": -0.0012,
+      "fatalities": -0.001,
+      "nearby_accidents": 1.0,
+      "latitude": -0.075,
+      "longitude": -0.1842
+    },
+    "latitude": {
+      "vehicles_involved": -0.0007,
+      "injuries": 0.0014,
+      "fatalities": 0.0002,
+      "nearby_accidents": -0.075,
+      "latitude": 1.0,
+      "longitude": 0.0745
+    },
+    "longitude": {
+      "vehicles_involved": -0.0005,
+      "injuries": 0.0012,
+      "fatalities": 0.0012,
+      "nearby_accidents": -0.1842,
+      "latitude": 0.0745,
+      "longitude": 1.0
+    }
+  },
+  "severity_breakdown": {
+    "injuries": {
+      "Critical": 5.006,
+      "High": 2.504,
+      "Low": 0.0,
+      "Medium": 0.999
+    },
+    "fatalities": {
+      "Critical": 1.5,
+      "High": 0.502,
+      "Low": 0.0,
+      "Medium": 0.0
+    },
+    "vehicles_involved": {
+      "Critical": 2.503,
+      "High": 2.502,
+      "Low": 2.5,
+      "Medium": 2.494
+    },
+    "nearby_accidents": {
+      "Critical": 17.692,
+      "High": 17.715,
+      "Low": 17.733,
+      "Medium": 17.707
+    }
+  }
+}

@@ -1,0 +1,6 @@
+query_id,shap_factor,query,top1_chunk_id,top1_title,top1_organization,top1_relevance_score,top1_topic_match,top1_authority_ok
+EQ-1,lag_expanding_accidents,high frequency road accident location India blackspot identification treatment,IRAD-001,Integrated Road Accident Database (iRAD) — India,"Ministry of Road Transport and Highways / NIC, Gov",0.8148,True,False
+EQ-2,lag_expanding_fatal_rate,high road fatality rate speed management India prevention fatal crash,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),0.8931,True,True
+EQ-3,lag_zw_expanding_swri (night window),night time road safety darkness visibility lighting India,WHO-GLB-RTI-03,Night-time and Poor-Visibility Road Safety Risk,World Health Organization,0.8658,True,False
+EQ-4,is_peak_window,peak hour urban traffic management congestion intersection road safety India,MORTH-ATTR-003,Traffic Density and Congestion — MoRTH Guidance,"Ministry of Road Transport and Highways, Governmen",0.8617,True,False
+EQ-5,lag_expanding_casualty_density,road crash emergency response trauma care high casualty density India,WHO-IND-001-01,Road Safety in India — WHO Overview,World Health Organization (WHO India),0.8321,False,True

@@ -1,0 +1,16 @@
+[
+  {
+    "document_id": "MORTH-ANNUAL-2023",
+    "title": "Road Accidents in India 2022 \u2014 Annual Report",
+    "source_organization": "Ministry of Road Transport and Highways, Government of India",
+    "source_url": "https://morth.nic.in/road-accident-india",
+    "reason": "Angular SPA \u2014 content rendered client-side, not accessible via static HTTP fetch"
+  },
+  {
+    "document_id": "NHAI-RS",
+    "title": "Road Safety Initiative \u2014 NHAI",
+    "source_organization": "National Highways Authority of India",
+    "source_url": "https://nhai.gov.in/en/road-safety-initiative",
+    "reason": "HTTP 404 \u2014 road safety path not found on static fetch"
+  }
+]

@@ -1,0 +1,14 @@
+region_metric,value,percentage_of_dataset,notes
+total_records,1000000,100.00%,Total rows in india_traffic_accidents.csv
+unique_coordinate_pairs,999746,99.97%,99.97% unique continuous floating coordinates (synthetic artifact)
+india_bounding_box_records,1000000,100.00%,All points bounded between 8.0N-37.0N and 68.0E-97.0E
+maharashtra_bounding_box_records,213777,21.38%,Bounding box 15.6N-22.1N and 72.6E-80.9E
+arabian_sea_sample_box_records,8590,0.86%,Direct open water coordinates in Arabian Sea (12-18N 68-72E)
+bay_of_bengal_sample_box_records,12940,1.29%,Direct open water coordinates in Bay of Bengal (12-18N 84-90E)
+andaman_sea_sample_box_records,7166,0.72%,Direct open water coordinates in Andaman Sea (10-14N 90-95E)
+total_open_water_sample_records,28696,2.87%,Sample of points placed directly in the sea
+pune_metro_box_records,5334,0.53%,Coordinates falling in Pune bounding box (18.40-18.65N 73.70-74.00E)
+mumbai_metro_box_records,8374,0.84%,Coordinates falling in Mumbai bounding box (18.90-19.30N 72.75-73.05E)
+nagpur_metro_box_records,16,0.0016%,Severe underrepresentation of major metro (only 16 points out of 1M)
+spatial_clustering_dbscan_noise,1737,8.69%,Points completely isolated from any spatial density cluster
+spatial_clusters_found_count,2,N/A,DBSCAN finds 2 diffuse uniform clouds instead of localized road hotspots

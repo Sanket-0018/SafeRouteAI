@@ -1,0 +1,227 @@
+[
+  {
+    "location": "Pune",
+    "type": "URBAN_CITY",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "risk_prob_worst_conditions": 0.791,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.791
+  },
+  {
+    "location": "Mumbai",
+    "type": "URBAN_CITY",
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "risk_prob_worst_conditions": 0.7968,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.7968
+  },
+  {
+    "location": "Nagpur",
+    "type": "URBAN_CITY",
+    "latitude": 21.1458,
+    "longitude": 79.0882,
+    "risk_prob_worst_conditions": 0.8245,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.8244
+  },
+  {
+    "location": "Nashik",
+    "type": "URBAN_CITY",
+    "latitude": 19.9975,
+    "longitude": 73.7898,
+    "risk_prob_worst_conditions": 0.7992,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.7992
+  },
+  {
+    "location": "Kolhapur",
+    "type": "URBAN_CITY",
+    "latitude": 16.705,
+    "longitude": 74.2433,
+    "risk_prob_worst_conditions": 0.8602,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.8601
+  },
+  {
+    "location": "Solapur",
+    "type": "URBAN_CITY",
+    "latitude": 17.6599,
+    "longitude": 75.9064,
+    "risk_prob_worst_conditions": 0.805,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.805
+  },
+  {
+    "location": "Chhatrapati Sambhajinagar",
+    "type": "URBAN_CITY",
+    "latitude": 19.8762,
+    "longitude": 75.3433,
+    "risk_prob_worst_conditions": 0.7358,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.7357
+  },
+  {
+    "location": "Latur",
+    "type": "URBAN_CITY",
+    "latitude": 18.4088,
+    "longitude": 76.5604,
+    "risk_prob_worst_conditions": 0.8039,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.8039
+  },
+  {
+    "location": "Nanded",
+    "type": "URBAN_CITY",
+    "latitude": 19.1383,
+    "longitude": 77.321,
+    "risk_prob_worst_conditions": 0.7458,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.7457
+  },
+  {
+    "location": "Akola",
+    "type": "URBAN_CITY",
+    "latitude": 20.7002,
+    "longitude": 77.0082,
+    "risk_prob_worst_conditions": 0.7502,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.7501
+  },
+  {
+    "location": "Amravati",
+    "type": "URBAN_CITY",
+    "latitude": 20.9374,
+    "longitude": 77.7796,
+    "risk_prob_worst_conditions": 0.769,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.769
+  },
+  {
+    "location": "Jalgaon",
+    "type": "URBAN_CITY",
+    "latitude": 21.0077,
+    "longitude": 75.5626,
+    "risk_prob_worst_conditions": 0.7553,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.7553
+  },
+  {
+    "location": "Dhule",
+    "type": "URBAN_CITY",
+    "latitude": 20.9042,
+    "longitude": 74.7749,
+    "risk_prob_worst_conditions": 0.689,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.689
+  },
+  {
+    "location": "Satara",
+    "type": "URBAN_CITY",
+    "latitude": 17.6805,
+    "longitude": 73.9803,
+    "risk_prob_worst_conditions": 0.8096,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.8095
+  },
+  {
+    "location": "Sangli",
+    "type": "URBAN_CITY",
+    "latitude": 16.8524,
+    "longitude": 74.5815,
+    "risk_prob_worst_conditions": 0.8596,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.8595
+  },
+  {
+    "location": "Beed",
+    "type": "URBAN_CITY",
+    "latitude": 18.9891,
+    "longitude": 75.7601,
+    "risk_prob_worst_conditions": 0.7122,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.7121
+  },
+  {
+    "location": "Jalna",
+    "type": "URBAN_CITY",
+    "latitude": 19.841,
+    "longitude": 75.8864,
+    "risk_prob_worst_conditions": 0.7358,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.7357
+  },
+  {
+    "location": "Wardha",
+    "type": "URBAN_CITY",
+    "latitude": 20.7453,
+    "longitude": 78.6022,
+    "risk_prob_worst_conditions": 0.7722,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.7721
+  },
+  {
+    "location": "Chandrapur",
+    "type": "URBAN_CITY",
+    "latitude": 19.9615,
+    "longitude": 79.2961,
+    "risk_prob_worst_conditions": 0.7862,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.7861
+  },
+  {
+    "location": "NH-48 Pune-Satara Khandala Ghat",
+    "type": "INTERCITY_HIGHWAY",
+    "latitude": 18.0125,
+    "longitude": 73.982,
+    "risk_prob_worst_conditions": 0.8022,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.8022
+  },
+  {
+    "location": "Mumbai-Pune Expressway Bhor Ghat",
+    "type": "INTERCITY_HIGHWAY",
+    "latitude": 18.775,
+    "longitude": 73.355,
+    "risk_prob_worst_conditions": 0.8096,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.8096
+  },
+  {
+    "location": "Samruddhi Mahamarg Shirdi Sector",
+    "type": "INTERCITY_HIGHWAY",
+    "latitude": 19.854,
+    "longitude": 74.453,
+    "risk_prob_worst_conditions": 0.7211,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.721
+  },
+  {
+    "location": "NH-65 Pune-Solapur Indapur Sector",
+    "type": "INTERCITY_HIGHWAY",
+    "latitude": 18.115,
+    "longitude": 75.025,
+    "risk_prob_worst_conditions": 0.8041,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.804
+  },
+  {
+    "location": "NH-53 Amravati-Nagpur Rural",
+    "type": "INTERCITY_HIGHWAY",
+    "latitude": 21.05,
+    "longitude": 78.2,
+    "risk_prob_worst_conditions": 0.769,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.769
+  },
+  {
+    "location": "NH-52 Dhule-Aurangabad Rural",
+    "type": "INTERCITY_HIGHWAY",
+    "latitude": 20.45,
+    "longitude": 75.12,
+    "risk_prob_worst_conditions": 0.7328,
+    "risk_prob_calm_conditions": 0.0,
+    "delta": 0.7327
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "total_rows_maha": 213777,
+  "train_samples": 160447,
+  "test_samples": 53204,
+  "metrics": {
+    "roc_auc": 0.9086998861242521,
+    "pr_auc": 0.8906146283721732,
+    "precision": 0.8139427127211457,
+    "recall": 0.8180432665848186,
+    "f1": 0.8159878380946348
+  },
+  "feature_importances": [
+    {
+      "feature": "longitude",
+      "importance": 1879
+    },
+    {
+      "feature": "latitude",
+      "importance": 1876
+    },
+    {
+      "feature": "hour",
+      "importance": 1121
+    },
+    {
+      "feature": "month",
+      "importance": 916
+    },
+    {
+      "feature": "weather_encoded",
+      "importance": 770
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 665
+    },
+    {
+      "feature": "road_condition_encoded",
+      "importance": 453
+    },
+    {
+      "feature": "vehicles_involved",
+      "importance": 443
+    },
+    {
+      "feature": "traffic_density_encoded",
+      "importance": 433
+    },
+    {
+      "feature": "lane_utilization_encoded",
+      "importance": 397
+    },
+    {
+      "feature": "is_night",
+      "importance": 45
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 2
+    }
+  ],
+  "dbscan_test": {
+    "n_clusters": 2,
+    "noise_pct": 8.685
+  }
+}

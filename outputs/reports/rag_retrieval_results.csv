@@ -1,0 +1,238 @@
+zone_id,target_month,city,time_window,predicted_high_probability,rag_query_used,retrieved_rank,chunk_id,title,source_organization,topic,source_url,relevance_score,content_excerpt
+363,2025-03,Pune,00:00 - 03:59 (Late Night),0.8716,night time road safety darkness driving India. Maharashtra urban arterial road safety,1,WHO-GLB-RTI-03,Night-time and Poor-Visibility Road Safety Risk,World Health Organization,"Night-time road safety, visibility, and lighting",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8905,"Night-time driving is associated with significantly elevated crash risk due to reduced visibility, driver fatigue, and higher prevalence of impaired driving. Crash risk per vehicle-km driven is approximately three times higher at night than during the day.
+
+Effective countermeasures for night-time road safety include: improved road lighting at high-risk locations (junctions, pedestrian crossings, "
+363,2025-03,Pune,00:00 - 03:59 (Late Night),0.8716,night time road safety darkness driving India. Maharashtra urban arterial road safety,2,WHO-GLB-RTI-04,Road Safety During Adverse Weather Conditions,World Health Organization,"Weather-related road safety — rain, fog, reduced visibility",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8141,"Adverse weather conditions — rain, fog, and reduced visibility — substantially increase crash risk. Wet road surfaces reduce tyre traction and extend braking distances. Fog and heavy rain reduce driver reaction time by limiting forward visibility.
+
+Recommended safety measures during adverse weather: mandatory speed reduction advisories and variable speed limit signs; increased visibility through r"
+363,2025-03,Pune,00:00 - 03:59 (Late Night),0.8716,night time road safety darkness driving India. Maharashtra urban arterial road safety,3,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.8016,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+363,2025-03,Pune,20:00 - 23:59 (Night),0.8579,peak hour traffic congestion road safety India. Maharashtra urban arterial road safety,1,MORTH-ATTR-003,Traffic Density and Congestion — MoRTH Guidance,"Ministry of Road Transport and Highways, Government of India",High traffic density and peak-hour road safety management in India,https://morth.nic.in/road-safety,0.8529,"High traffic density — particularly during peak hours — is associated with elevated crash frequency at intersections and merging zones in Indian cities. MoRTH and the Indian Roads Congress (IRC) recognise that unsignalised or poorly signalised intersections under high traffic volumes are a major crash contributor.
+
+Recommended interventions for high-density urban traffic environments:
+- Signal tim"
+363,2025-03,Pune,20:00 - 23:59 (Night),0.8579,peak hour traffic congestion road safety India. Maharashtra urban arterial road safety,2,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.8194,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+363,2025-03,Pune,20:00 - 23:59 (Night),0.8579,peak hour traffic congestion road safety India. Maharashtra urban arterial road safety,3,IRC-SP55-001,IRC:SP-55 — Urban Road Safety Measures,Indian Roads Congress (IRC),Safety measures for urban road intersections and high-risk locations,https://irc.nic.in/,0.7957,"NOTE: IRC:SP-55 guidelines for urban road safety. Full text procurable through IRC. Content here summarises publicly known provisions.
+
+IRC:SP-55 addresses safety at urban roads and intersections. Key guidance elements:
+
+Intersection safety:
+- Channelisation of turning movements to reduce conflict points
+- Provision of traffic signals with dedicated pedestrian phases at high-volume junctions
+- Vis"
+97,2025-03,Chandigarh,04:00 - 07:59 (Early Morning),0.8573,night time road safety darkness driving India. Chandigarh planned city road safety,1,WHO-GLB-RTI-03,Night-time and Poor-Visibility Road Safety Risk,World Health Organization,"Night-time road safety, visibility, and lighting",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.88,"Night-time driving is associated with significantly elevated crash risk due to reduced visibility, driver fatigue, and higher prevalence of impaired driving. Crash risk per vehicle-km driven is approximately three times higher at night than during the day.
+
+Effective countermeasures for night-time road safety include: improved road lighting at high-risk locations (junctions, pedestrian crossings, "
+97,2025-03,Chandigarh,04:00 - 07:59 (Early Morning),0.8573,night time road safety darkness driving India. Chandigarh planned city road safety,2,WHO-GLB-RTI-04,Road Safety During Adverse Weather Conditions,World Health Organization,"Weather-related road safety — rain, fog, reduced visibility",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8037,"Adverse weather conditions — rain, fog, and reduced visibility — substantially increase crash risk. Wet road surfaces reduce tyre traction and extend braking distances. Fog and heavy rain reduce driver reaction time by limiting forward visibility.
+
+Recommended safety measures during adverse weather: mandatory speed reduction advisories and variable speed limit signs; increased visibility through r"
+97,2025-03,Chandigarh,04:00 - 07:59 (Early Morning),0.8573,night time road safety darkness driving India. Chandigarh planned city road safety,3,IRC-SP55-001,IRC:SP-55 — Urban Road Safety Measures,Indian Roads Congress (IRC),Safety measures for urban road intersections and high-risk locations,https://irc.nic.in/,0.7937,"NOTE: IRC:SP-55 guidelines for urban road safety. Full text procurable through IRC. Content here summarises publicly known provisions.
+
+IRC:SP-55 addresses safety at urban roads and intersections. Key guidance elements:
+
+Intersection safety:
+- Channelisation of turning movements to reduce conflict points
+- Provision of traffic signals with dedicated pedestrian phases at high-volume junctions
+- Vis"
+97,2025-02,Chandigarh,20:00 - 23:59 (Night),0.8405,peak hour traffic congestion road safety India. Chandigarh planned city road safety,1,MORTH-ATTR-003,Traffic Density and Congestion — MoRTH Guidance,"Ministry of Road Transport and Highways, Government of India",High traffic density and peak-hour road safety management in India,https://morth.nic.in/road-safety,0.8482,"High traffic density — particularly during peak hours — is associated with elevated crash frequency at intersections and merging zones in Indian cities. MoRTH and the Indian Roads Congress (IRC) recognise that unsignalised or poorly signalised intersections under high traffic volumes are a major crash contributor.
+
+Recommended interventions for high-density urban traffic environments:
+- Signal tim"
+97,2025-02,Chandigarh,20:00 - 23:59 (Night),0.8405,peak hour traffic congestion road safety India. Chandigarh planned city road safety,2,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.8092,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+97,2025-02,Chandigarh,20:00 - 23:59 (Night),0.8405,peak hour traffic congestion road safety India. Chandigarh planned city road safety,3,IRC-SP55-001,IRC:SP-55 — Urban Road Safety Measures,Indian Roads Congress (IRC),Safety measures for urban road intersections and high-risk locations,https://irc.nic.in/,0.797,"NOTE: IRC:SP-55 guidelines for urban road safety. Full text procurable through IRC. Content here summarises publicly known provisions.
+
+IRC:SP-55 addresses safety at urban roads and intersections. Key guidance elements:
+
+Intersection safety:
+- Channelisation of turning movements to reduce conflict points
+- Provision of traffic signals with dedicated pedestrian phases at high-volume junctions
+- Vis"
+363,2025-01,Pune,04:00 - 07:59 (Early Morning),0.8377,night time road safety darkness driving India. Maharashtra urban arterial road safety,1,WHO-GLB-RTI-03,Night-time and Poor-Visibility Road Safety Risk,World Health Organization,"Night-time road safety, visibility, and lighting",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8905,"Night-time driving is associated with significantly elevated crash risk due to reduced visibility, driver fatigue, and higher prevalence of impaired driving. Crash risk per vehicle-km driven is approximately three times higher at night than during the day.
+
+Effective countermeasures for night-time road safety include: improved road lighting at high-risk locations (junctions, pedestrian crossings, "
+363,2025-01,Pune,04:00 - 07:59 (Early Morning),0.8377,night time road safety darkness driving India. Maharashtra urban arterial road safety,2,WHO-GLB-RTI-04,Road Safety During Adverse Weather Conditions,World Health Organization,"Weather-related road safety — rain, fog, reduced visibility",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8141,"Adverse weather conditions — rain, fog, and reduced visibility — substantially increase crash risk. Wet road surfaces reduce tyre traction and extend braking distances. Fog and heavy rain reduce driver reaction time by limiting forward visibility.
+
+Recommended safety measures during adverse weather: mandatory speed reduction advisories and variable speed limit signs; increased visibility through r"
+363,2025-01,Pune,04:00 - 07:59 (Early Morning),0.8377,night time road safety darkness driving India. Maharashtra urban arterial road safety,3,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.8016,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+97,2025-02,Chandigarh,16:00 - 19:59 (Evening Rush),0.8358,peak hour traffic congestion road safety India. Chandigarh planned city road safety,1,MORTH-ATTR-003,Traffic Density and Congestion — MoRTH Guidance,"Ministry of Road Transport and Highways, Government of India",High traffic density and peak-hour road safety management in India,https://morth.nic.in/road-safety,0.8482,"High traffic density — particularly during peak hours — is associated with elevated crash frequency at intersections and merging zones in Indian cities. MoRTH and the Indian Roads Congress (IRC) recognise that unsignalised or poorly signalised intersections under high traffic volumes are a major crash contributor.
+
+Recommended interventions for high-density urban traffic environments:
+- Signal tim"
+97,2025-02,Chandigarh,16:00 - 19:59 (Evening Rush),0.8358,peak hour traffic congestion road safety India. Chandigarh planned city road safety,2,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.8092,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+97,2025-02,Chandigarh,16:00 - 19:59 (Evening Rush),0.8358,peak hour traffic congestion road safety India. Chandigarh planned city road safety,3,IRC-SP55-001,IRC:SP-55 — Urban Road Safety Measures,Indian Roads Congress (IRC),Safety measures for urban road intersections and high-risk locations,https://irc.nic.in/,0.797,"NOTE: IRC:SP-55 guidelines for urban road safety. Full text procurable through IRC. Content here summarises publicly known provisions.
+
+IRC:SP-55 addresses safety at urban roads and intersections. Key guidance elements:
+
+Intersection safety:
+- Channelisation of turning movements to reduce conflict points
+- Provision of traffic signals with dedicated pedestrian phases at high-volume junctions
+- Vis"
+97,2025-03,Chandigarh,20:00 - 23:59 (Night),0.8357,peak hour traffic congestion road safety India. Chandigarh planned city road safety,1,MORTH-ATTR-003,Traffic Density and Congestion — MoRTH Guidance,"Ministry of Road Transport and Highways, Government of India",High traffic density and peak-hour road safety management in India,https://morth.nic.in/road-safety,0.8482,"High traffic density — particularly during peak hours — is associated with elevated crash frequency at intersections and merging zones in Indian cities. MoRTH and the Indian Roads Congress (IRC) recognise that unsignalised or poorly signalised intersections under high traffic volumes are a major crash contributor.
+
+Recommended interventions for high-density urban traffic environments:
+- Signal tim"
+97,2025-03,Chandigarh,20:00 - 23:59 (Night),0.8357,peak hour traffic congestion road safety India. Chandigarh planned city road safety,2,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.8092,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+97,2025-03,Chandigarh,20:00 - 23:59 (Night),0.8357,peak hour traffic congestion road safety India. Chandigarh planned city road safety,3,IRC-SP55-001,IRC:SP-55 — Urban Road Safety Measures,Indian Roads Congress (IRC),Safety measures for urban road intersections and high-risk locations,https://irc.nic.in/,0.797,"NOTE: IRC:SP-55 guidelines for urban road safety. Full text procurable through IRC. Content here summarises publicly known provisions.
+
+IRC:SP-55 addresses safety at urban roads and intersections. Key guidance elements:
+
+Intersection safety:
+- Channelisation of turning movements to reduce conflict points
+- Provision of traffic signals with dedicated pedestrian phases at high-volume junctions
+- Vis"
+233,2025-02,Hyderabad,12:00 - 15:59 (Afternoon),0.83,Hyderabad urban corridor road safety,1,IRC-SP88-001,IRC:SP-88 — Road Safety Audit Manual (India),Indian Roads Congress (IRC),"Road Safety Audit (RSA) — process, scope, and application in India",https://irc.nic.in/,0.8,"NOTE: IRC publications are available through the IRC (irc.nic.in) and select government procurement portals. Full text is not freely accessible online. This entry summarises publicly known provisions.
+
+IRC:SP-88 establishes the guidelines for Road Safety Audit (RSA) in India. RSA is an independent, formal safety performance examination of a proposed or existing road by a qualified team.
+
+Key provi"
+233,2025-02,Hyderabad,12:00 - 15:59 (Afternoon),0.83,Hyderabad urban corridor road safety,2,WHO-SAVE-LIVES-WEB-001,Save LIVES: A Road Safety Technical Package,World Health Organization,"Speed, alcohol, vehicle safety, infrastructure, post-crash care — comprehensive framework",https://www.who.int/publications/i/item/save-lives-a-road-safety-technical-package,0.798,"Save lives: a road safety technical package
+Skip to main content
+- Select language -
+العربية
+中文
+français
+русский
+español
+português
+Download
+(3 MB)
+Overview
+Each year, 1.25 million people die as a result of road traffic crashes and as many as 50 million people are injured. They are the leading cause of death among people aged 15-29 years. Nearly half (49%) of the people who die on the world’s roads"
+233,2025-02,Hyderabad,12:00 - 15:59 (Afternoon),0.83,Hyderabad urban corridor road safety,3,WHO-SL-002,SAVE LIVES — Infrastructure and Road Design,World Health Organization,Road infrastructure design for crash prevention and severity reduction,https://www.who.int/publications/i/item/save-lives-a-road-safety-technical-package,0.7892,"The WHO SAVE LIVES package Infrastructure pillar recommends:
+
+1. Road Safety Audit (RSA) for all new and existing roads — independent audit of road design to identify and correct safety deficiencies before crashes occur. RSA is a preventive tool that supplements crash-based blackspot identification.
+2. Blackspot identification and treatment — systematic analysis of crash clusters using geographic "
+363,2025-03,Pune,04:00 - 07:59 (Early Morning),0.8296,night time road safety darkness driving India. Maharashtra urban arterial road safety,1,WHO-GLB-RTI-03,Night-time and Poor-Visibility Road Safety Risk,World Health Organization,"Night-time road safety, visibility, and lighting",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8905,"Night-time driving is associated with significantly elevated crash risk due to reduced visibility, driver fatigue, and higher prevalence of impaired driving. Crash risk per vehicle-km driven is approximately three times higher at night than during the day.
+
+Effective countermeasures for night-time road safety include: improved road lighting at high-risk locations (junctions, pedestrian crossings, "
+363,2025-03,Pune,04:00 - 07:59 (Early Morning),0.8296,night time road safety darkness driving India. Maharashtra urban arterial road safety,2,WHO-GLB-RTI-04,Road Safety During Adverse Weather Conditions,World Health Organization,"Weather-related road safety — rain, fog, reduced visibility",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8141,"Adverse weather conditions — rain, fog, and reduced visibility — substantially increase crash risk. Wet road surfaces reduce tyre traction and extend braking distances. Fog and heavy rain reduce driver reaction time by limiting forward visibility.
+
+Recommended safety measures during adverse weather: mandatory speed reduction advisories and variable speed limit signs; increased visibility through r"
+363,2025-03,Pune,04:00 - 07:59 (Early Morning),0.8296,night time road safety darkness driving India. Maharashtra urban arterial road safety,3,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.8016,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+97,2025-03,Chandigarh,16:00 - 19:59 (Evening Rush),0.8263,peak hour traffic congestion road safety India. Chandigarh planned city road safety,1,MORTH-ATTR-003,Traffic Density and Congestion — MoRTH Guidance,"Ministry of Road Transport and Highways, Government of India",High traffic density and peak-hour road safety management in India,https://morth.nic.in/road-safety,0.8482,"High traffic density — particularly during peak hours — is associated with elevated crash frequency at intersections and merging zones in Indian cities. MoRTH and the Indian Roads Congress (IRC) recognise that unsignalised or poorly signalised intersections under high traffic volumes are a major crash contributor.
+
+Recommended interventions for high-density urban traffic environments:
+- Signal tim"
+97,2025-03,Chandigarh,16:00 - 19:59 (Evening Rush),0.8263,peak hour traffic congestion road safety India. Chandigarh planned city road safety,2,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.8092,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+97,2025-03,Chandigarh,16:00 - 19:59 (Evening Rush),0.8263,peak hour traffic congestion road safety India. Chandigarh planned city road safety,3,IRC-SP55-001,IRC:SP-55 — Urban Road Safety Measures,Indian Roads Congress (IRC),Safety measures for urban road intersections and high-risk locations,https://irc.nic.in/,0.797,"NOTE: IRC:SP-55 guidelines for urban road safety. Full text procurable through IRC. Content here summarises publicly known provisions.
+
+IRC:SP-55 addresses safety at urban roads and intersections. Key guidance elements:
+
+Intersection safety:
+- Channelisation of turning movements to reduce conflict points
+- Provision of traffic signals with dedicated pedestrian phases at high-volume junctions
+- Vis"
+223,2025-03,Hyderabad,04:00 - 07:59 (Early Morning),0.8255,night time road safety darkness driving India. Hyderabad urban corridor road safety,1,WHO-GLB-RTI-03,Night-time and Poor-Visibility Road Safety Risk,World Health Organization,"Night-time road safety, visibility, and lighting",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8688,"Night-time driving is associated with significantly elevated crash risk due to reduced visibility, driver fatigue, and higher prevalence of impaired driving. Crash risk per vehicle-km driven is approximately three times higher at night than during the day.
+
+Effective countermeasures for night-time road safety include: improved road lighting at high-risk locations (junctions, pedestrian crossings, "
+223,2025-03,Hyderabad,04:00 - 07:59 (Early Morning),0.8255,night time road safety darkness driving India. Hyderabad urban corridor road safety,2,WHO-GLB-RTI-04,Road Safety During Adverse Weather Conditions,World Health Organization,"Weather-related road safety — rain, fog, reduced visibility",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.7994,"Adverse weather conditions — rain, fog, and reduced visibility — substantially increase crash risk. Wet road surfaces reduce tyre traction and extend braking distances. Fog and heavy rain reduce driver reaction time by limiting forward visibility.
+
+Recommended safety measures during adverse weather: mandatory speed reduction advisories and variable speed limit signs; increased visibility through r"
+223,2025-03,Hyderabad,04:00 - 07:59 (Early Morning),0.8255,night time road safety darkness driving India. Hyderabad urban corridor road safety,3,IRC-SP55-001,IRC:SP-55 — Urban Road Safety Measures,Indian Roads Congress (IRC),Safety measures for urban road intersections and high-risk locations,https://irc.nic.in/,0.7943,"NOTE: IRC:SP-55 guidelines for urban road safety. Full text procurable through IRC. Content here summarises publicly known provisions.
+
+IRC:SP-55 addresses safety at urban roads and intersections. Key guidance elements:
+
+Intersection safety:
+- Channelisation of turning movements to reduce conflict points
+- Provision of traffic signals with dedicated pedestrian phases at high-volume junctions
+- Vis"
+223,2025-04,Hyderabad,16:00 - 19:59 (Evening Rush),0.8225,peak hour traffic congestion road safety India. Hyderabad urban corridor road safety,1,MORTH-ATTR-003,Traffic Density and Congestion — MoRTH Guidance,"Ministry of Road Transport and Highways, Government of India",High traffic density and peak-hour road safety management in India,https://morth.nic.in/road-safety,0.8485,"High traffic density — particularly during peak hours — is associated with elevated crash frequency at intersections and merging zones in Indian cities. MoRTH and the Indian Roads Congress (IRC) recognise that unsignalised or poorly signalised intersections under high traffic volumes are a major crash contributor.
+
+Recommended interventions for high-density urban traffic environments:
+- Signal tim"
+223,2025-04,Hyderabad,16:00 - 19:59 (Evening Rush),0.8225,peak hour traffic congestion road safety India. Hyderabad urban corridor road safety,2,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.8017,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+223,2025-04,Hyderabad,16:00 - 19:59 (Evening Rush),0.8225,peak hour traffic congestion road safety India. Hyderabad urban corridor road safety,3,IRC-SP55-001,IRC:SP-55 — Urban Road Safety Measures,Indian Roads Congress (IRC),Safety measures for urban road intersections and high-risk locations,https://irc.nic.in/,0.7959,"NOTE: IRC:SP-55 guidelines for urban road safety. Full text procurable through IRC. Content here summarises publicly known provisions.
+
+IRC:SP-55 addresses safety at urban roads and intersections. Key guidance elements:
+
+Intersection safety:
+- Channelisation of turning movements to reduce conflict points
+- Provision of traffic signals with dedicated pedestrian phases at high-volume junctions
+- Vis"
+223,2025-03,Hyderabad,16:00 - 19:59 (Evening Rush),0.821,peak hour traffic congestion road safety India. Hyderabad urban corridor road safety,1,MORTH-ATTR-003,Traffic Density and Congestion — MoRTH Guidance,"Ministry of Road Transport and Highways, Government of India",High traffic density and peak-hour road safety management in India,https://morth.nic.in/road-safety,0.8485,"High traffic density — particularly during peak hours — is associated with elevated crash frequency at intersections and merging zones in Indian cities. MoRTH and the Indian Roads Congress (IRC) recognise that unsignalised or poorly signalised intersections under high traffic volumes are a major crash contributor.
+
+Recommended interventions for high-density urban traffic environments:
+- Signal tim"
+223,2025-03,Hyderabad,16:00 - 19:59 (Evening Rush),0.821,peak hour traffic congestion road safety India. Hyderabad urban corridor road safety,2,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.8017,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+223,2025-03,Hyderabad,16:00 - 19:59 (Evening Rush),0.821,peak hour traffic congestion road safety India. Hyderabad urban corridor road safety,3,IRC-SP55-001,IRC:SP-55 — Urban Road Safety Measures,Indian Roads Congress (IRC),Safety measures for urban road intersections and high-risk locations,https://irc.nic.in/,0.7959,"NOTE: IRC:SP-55 guidelines for urban road safety. Full text procurable through IRC. Content here summarises publicly known provisions.
+
+IRC:SP-55 addresses safety at urban roads and intersections. Key guidance elements:
+
+Intersection safety:
+- Channelisation of turning movements to reduce conflict points
+- Provision of traffic signals with dedicated pedestrian phases at high-volume junctions
+- Vis"
+97,2025-02,Chandigarh,04:00 - 07:59 (Early Morning),0.8193,night time road safety darkness driving India. Chandigarh planned city road safety,1,WHO-GLB-RTI-03,Night-time and Poor-Visibility Road Safety Risk,World Health Organization,"Night-time road safety, visibility, and lighting",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.88,"Night-time driving is associated with significantly elevated crash risk due to reduced visibility, driver fatigue, and higher prevalence of impaired driving. Crash risk per vehicle-km driven is approximately three times higher at night than during the day.
+
+Effective countermeasures for night-time road safety include: improved road lighting at high-risk locations (junctions, pedestrian crossings, "
+97,2025-02,Chandigarh,04:00 - 07:59 (Early Morning),0.8193,night time road safety darkness driving India. Chandigarh planned city road safety,2,WHO-GLB-RTI-04,Road Safety During Adverse Weather Conditions,World Health Organization,"Weather-related road safety — rain, fog, reduced visibility",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8037,"Adverse weather conditions — rain, fog, and reduced visibility — substantially increase crash risk. Wet road surfaces reduce tyre traction and extend braking distances. Fog and heavy rain reduce driver reaction time by limiting forward visibility.
+
+Recommended safety measures during adverse weather: mandatory speed reduction advisories and variable speed limit signs; increased visibility through r"
+97,2025-02,Chandigarh,04:00 - 07:59 (Early Morning),0.8193,night time road safety darkness driving India. Chandigarh planned city road safety,3,IRC-SP55-001,IRC:SP-55 — Urban Road Safety Measures,Indian Roads Congress (IRC),Safety measures for urban road intersections and high-risk locations,https://irc.nic.in/,0.7937,"NOTE: IRC:SP-55 guidelines for urban road safety. Full text procurable through IRC. Content here summarises publicly known provisions.
+
+IRC:SP-55 addresses safety at urban roads and intersections. Key guidance elements:
+
+Intersection safety:
+- Channelisation of turning movements to reduce conflict points
+- Provision of traffic signals with dedicated pedestrian phases at high-volume junctions
+- Vis"
+138,2025-04,Chennai,04:00 - 07:59 (Early Morning),0.8186,night time road safety darkness driving India. Chennai urban road safety,1,WHO-GLB-RTI-03,Night-time and Poor-Visibility Road Safety Risk,World Health Organization,"Night-time road safety, visibility, and lighting",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8785,"Night-time driving is associated with significantly elevated crash risk due to reduced visibility, driver fatigue, and higher prevalence of impaired driving. Crash risk per vehicle-km driven is approximately three times higher at night than during the day.
+
+Effective countermeasures for night-time road safety include: improved road lighting at high-risk locations (junctions, pedestrian crossings, "
+138,2025-04,Chennai,04:00 - 07:59 (Early Morning),0.8186,night time road safety darkness driving India. Chennai urban road safety,2,WHO-GLB-RTI-04,Road Safety During Adverse Weather Conditions,World Health Organization,"Weather-related road safety — rain, fog, reduced visibility",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8164,"Adverse weather conditions — rain, fog, and reduced visibility — substantially increase crash risk. Wet road surfaces reduce tyre traction and extend braking distances. Fog and heavy rain reduce driver reaction time by limiting forward visibility.
+
+Recommended safety measures during adverse weather: mandatory speed reduction advisories and variable speed limit signs; increased visibility through r"
+138,2025-04,Chennai,04:00 - 07:59 (Early Morning),0.8186,night time road safety darkness driving India. Chennai urban road safety,3,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.7941,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+248,2025-04,Hyderabad,20:00 - 23:59 (Night),0.8131,peak hour traffic congestion road safety India. Hyderabad urban corridor road safety,1,MORTH-ATTR-003,Traffic Density and Congestion — MoRTH Guidance,"Ministry of Road Transport and Highways, Government of India",High traffic density and peak-hour road safety management in India,https://morth.nic.in/road-safety,0.8485,"High traffic density — particularly during peak hours — is associated with elevated crash frequency at intersections and merging zones in Indian cities. MoRTH and the Indian Roads Congress (IRC) recognise that unsignalised or poorly signalised intersections under high traffic volumes are a major crash contributor.
+
+Recommended interventions for high-density urban traffic environments:
+- Signal tim"
+248,2025-04,Hyderabad,20:00 - 23:59 (Night),0.8131,peak hour traffic congestion road safety India. Hyderabad urban corridor road safety,2,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.8017,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+248,2025-04,Hyderabad,20:00 - 23:59 (Night),0.8131,peak hour traffic congestion road safety India. Hyderabad urban corridor road safety,3,IRC-SP55-001,IRC:SP-55 — Urban Road Safety Measures,Indian Roads Congress (IRC),Safety measures for urban road intersections and high-risk locations,https://irc.nic.in/,0.7959,"NOTE: IRC:SP-55 guidelines for urban road safety. Full text procurable through IRC. Content here summarises publicly known provisions.
+
+IRC:SP-55 addresses safety at urban roads and intersections. Key guidance elements:
+
+Intersection safety:
+- Channelisation of turning movements to reduce conflict points
+- Provision of traffic signals with dedicated pedestrian phases at high-volume junctions
+- Vis"
+51,2025-02,Bangalore,04:00 - 07:59 (Early Morning),0.8125,night time road safety darkness driving India. Bangalore urban traffic management road safety,1,WHO-GLB-RTI-03,Night-time and Poor-Visibility Road Safety Risk,World Health Organization,"Night-time road safety, visibility, and lighting",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8781,"Night-time driving is associated with significantly elevated crash risk due to reduced visibility, driver fatigue, and higher prevalence of impaired driving. Crash risk per vehicle-km driven is approximately three times higher at night than during the day.
+
+Effective countermeasures for night-time road safety include: improved road lighting at high-risk locations (junctions, pedestrian crossings, "
+51,2025-02,Bangalore,04:00 - 07:59 (Early Morning),0.8125,night time road safety darkness driving India. Bangalore urban traffic management road safety,2,WHO-GLB-RTI-04,Road Safety During Adverse Weather Conditions,World Health Organization,"Weather-related road safety — rain, fog, reduced visibility",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.81,"Adverse weather conditions — rain, fog, and reduced visibility — substantially increase crash risk. Wet road surfaces reduce tyre traction and extend braking distances. Fog and heavy rain reduce driver reaction time by limiting forward visibility.
+
+Recommended safety measures during adverse weather: mandatory speed reduction advisories and variable speed limit signs; increased visibility through r"
+51,2025-02,Bangalore,04:00 - 07:59 (Early Morning),0.8125,night time road safety darkness driving India. Bangalore urban traffic management road safety,3,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.7977,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+51,2025-02,Bangalore,00:00 - 03:59 (Late Night),0.8124,night time road safety darkness driving India. Bangalore urban traffic management road safety,1,WHO-GLB-RTI-03,Night-time and Poor-Visibility Road Safety Risk,World Health Organization,"Night-time road safety, visibility, and lighting",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8781,"Night-time driving is associated with significantly elevated crash risk due to reduced visibility, driver fatigue, and higher prevalence of impaired driving. Crash risk per vehicle-km driven is approximately three times higher at night than during the day.
+
+Effective countermeasures for night-time road safety include: improved road lighting at high-risk locations (junctions, pedestrian crossings, "
+51,2025-02,Bangalore,00:00 - 03:59 (Late Night),0.8124,night time road safety darkness driving India. Bangalore urban traffic management road safety,2,WHO-GLB-RTI-04,Road Safety During Adverse Weather Conditions,World Health Organization,"Weather-related road safety — rain, fog, reduced visibility",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.81,"Adverse weather conditions — rain, fog, and reduced visibility — substantially increase crash risk. Wet road surfaces reduce tyre traction and extend braking distances. Fog and heavy rain reduce driver reaction time by limiting forward visibility.
+
+Recommended safety measures during adverse weather: mandatory speed reduction advisories and variable speed limit signs; increased visibility through r"
+51,2025-02,Bangalore,00:00 - 03:59 (Late Night),0.8124,night time road safety darkness driving India. Bangalore urban traffic management road safety,3,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.7977,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+363,2025-03,Pune,12:00 - 15:59 (Afternoon),0.8112,Maharashtra urban arterial road safety,1,WHO-IND-001-02,Road Safety in India — Risk Factors and Countermeasures,World Health Organization (WHO India),"Risk factors for road crashes in India — speeding, alcohol, infrastructure",https://www.who.int/india/health-topics/road-safety,0.8095,"Many road crashes are a result of faulty road design and engineering. Non-adherence to legislation is a major reason for road crashes. While over-speeding remains the most common reason for road fatalities in India, other contributing factors include: driving under the influence of alcohol; driving on the wrong side of the road; jumping red lights; using mobile phones while driving; not wearing a "
+363,2025-03,Pune,12:00 - 15:59 (Afternoon),0.8112,Maharashtra urban arterial road safety,2,WHO-IND-RS-WEB-001,Road Safety — India,World Health Organization (WHO India),"Overview of road safety in India — risk factors, burden, preventive approach",https://www.who.int/india/health-topics/road-safety,0.7952,"Road safety - India
+Skip to main content
+Road safety
+Estimates suggest that India lost approximately 300 000 lives due to road crashes in  the year 2016. Upto 50 times this number suffered injuries, with some of them developing disabilities. A majority of those dying on the roads are pedestrians, cyclists and motorcyclists. According to government data, young people are more vulnerable, especially"
+363,2025-03,Pune,12:00 - 15:59 (Afternoon),0.8112,Maharashtra urban arterial road safety,3,IRC-SP55-001,IRC:SP-55 — Urban Road Safety Measures,Indian Roads Congress (IRC),Safety measures for urban road intersections and high-risk locations,https://irc.nic.in/,0.7864,"NOTE: IRC:SP-55 guidelines for urban road safety. Full text procurable through IRC. Content here summarises publicly known provisions.
+
+IRC:SP-55 addresses safety at urban roads and intersections. Key guidance elements:
+
+Intersection safety:
+- Channelisation of turning movements to reduce conflict points
+- Provision of traffic signals with dedicated pedestrian phases at high-volume junctions
+- Vis"
+223,2025-04,Hyderabad,04:00 - 07:59 (Early Morning),0.8075,night time road safety darkness driving India. Hyderabad urban corridor road safety,1,WHO-GLB-RTI-03,Night-time and Poor-Visibility Road Safety Risk,World Health Organization,"Night-time road safety, visibility, and lighting",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.8688,"Night-time driving is associated with significantly elevated crash risk due to reduced visibility, driver fatigue, and higher prevalence of impaired driving. Crash risk per vehicle-km driven is approximately three times higher at night than during the day.
+
+Effective countermeasures for night-time road safety include: improved road lighting at high-risk locations (junctions, pedestrian crossings, "
+223,2025-04,Hyderabad,04:00 - 07:59 (Early Morning),0.8075,night time road safety darkness driving India. Hyderabad urban corridor road safety,2,WHO-GLB-RTI-04,Road Safety During Adverse Weather Conditions,World Health Organization,"Weather-related road safety — rain, fog, reduced visibility",https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries,0.7994,"Adverse weather conditions — rain, fog, and reduced visibility — substantially increase crash risk. Wet road surfaces reduce tyre traction and extend braking distances. Fog and heavy rain reduce driver reaction time by limiting forward visibility.
+
+Recommended safety measures during adverse weather: mandatory speed reduction advisories and variable speed limit signs; increased visibility through r"
+223,2025-04,Hyderabad,04:00 - 07:59 (Early Morning),0.8075,night time road safety darkness driving India. Hyderabad urban corridor road safety,3,IRC-SP55-001,IRC:SP-55 — Urban Road Safety Measures,Indian Roads Congress (IRC),Safety measures for urban road intersections and high-risk locations,https://irc.nic.in/,0.7943,"NOTE: IRC:SP-55 guidelines for urban road safety. Full text procurable through IRC. Content here summarises publicly known provisions.
+
+IRC:SP-55 addresses safety at urban roads and intersections. Key guidance elements:
+
+Intersection safety:
+- Channelisation of turning movements to reduce conflict points
+- Provision of traffic signals with dedicated pedestrian phases at high-volume junctions
+- Vis"

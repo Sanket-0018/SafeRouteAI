@@ -1,0 +1,57 @@
+{
+  "model_type": "LightGBM Classifier",
+  "selected_hyperparameters": {
+    "n_estimators": 120,
+    "max_depth": 6,
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "class_weight": "balanced"
+  },
+  "features": [
+    "time_window_4h",
+    "is_peak_window",
+    "center_lat",
+    "center_lon",
+    "max_r_km",
+    "lag_accidents_30d",
+    "lag_accidents_90d",
+    "lag_accidents_180d",
+    "lag_trend_90d_vs_180d",
+    "lag_expanding_accidents",
+    "lag_expanding_fatal_rate",
+    "lag_expanding_major_rate",
+    "lag_expanding_casualty_density",
+    "lag_zw_expanding_accidents",
+    "lag_zw_expanding_swri",
+    "city_Bangalore",
+    "city_Chandigarh",
+    "city_Chennai",
+    "city_Delhi",
+    "city_Hyderabad",
+    "city_Kolkata",
+    "city_Mumbai",
+    "city_Pune"
+  ],
+  "classes": [
+    "HIGH",
+    "LOW",
+    "MEDIUM"
+  ],
+  "validation_metrics": {
+    "Model": "LightGBM",
+    "Accuracy": 0.556692242114237,
+    "Macro Precision": 0.3990878259825124,
+    "Macro Recall": 0.4649057665567033,
+    "Macro F1": 0.3727988822772552,
+    "HIGH PR-AUC": 0.20270541306525403,
+    "HIGH Brier": 0.1166007155388365
+  },
+  "test_metrics": {
+    "Accuracy": 0.5159846547314578,
+    "Macro Precision": 0.3774478753401555,
+    "Macro Recall": 0.4245038992069016,
+    "Macro F1": 0.3289453156176398,
+    "HIGH PR-AUC": 0.17468620755413494,
+    "HIGH Brier Score": 0.12086975406062363
+  }
+}

@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cf5b8a4c79e5ee84b6abf0f905f8f070 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cf5b8a4c79e5ee84b6abf0f905f8f070" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cf5b8a4c79e5ee84b6abf0f905f8f070 = L.map(
+                "map_cf5b8a4c79e5ee84b6abf0f905f8f070",
+                {
+                    center: [20.316921888016346, 78.29381369521066],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f451ea114f413690ab4bf2116acb814c = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f451ea114f413690ab4bf2116acb814c.addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+            var circle_marker_466a4863853b1000fe639c7e3ee37f45 = L.circleMarker(
+                [18.49660929931973, 73.8832513537415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.715629715263292, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_94d0200913496b4963fdc226553632f7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_975b6139d31884a713550a2ff65c6943 = $(`<div id="html_975b6139d31884a713550a2ff65c6943" style="width: 100.0%; height: 100.0%;"><b>Rank 1: Zone 363 (Pune)</b><br>Window: 00:00 - 03:59 (Late Night)<br>Predicted High Prob: 0.87<br>Actual Tier: LOW</div>`)[0];
+                popup_94d0200913496b4963fdc226553632f7.setContent(html_975b6139d31884a713550a2ff65c6943);
+            
+        
+
+        circle_marker_466a4863853b1000fe639c7e3ee37f45.bindPopup(popup_94d0200913496b4963fdc226553632f7)
+        ;
+
+        
+    
+    
+            var circle_marker_6ecfa1fa85cdc9af0fa78b202c24ed84 = L.circleMarker(
+                [18.49660929931973, 73.8832513537415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.578818216008294, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_54bf5d15f411c8bed971afc6b3db2d6f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b282d84ee5abcba75b204906cc7f76f9 = $(`<div id="html_b282d84ee5abcba75b204906cc7f76f9" style="width: 100.0%; height: 100.0%;"><b>Rank 2: Zone 363 (Pune)</b><br>Window: 20:00 - 23:59 (Night)<br>Predicted High Prob: 0.86<br>Actual Tier: HIGH</div>`)[0];
+                popup_54bf5d15f411c8bed971afc6b3db2d6f.setContent(html_b282d84ee5abcba75b204906cc7f76f9);
+            
+        
+
+        circle_marker_6ecfa1fa85cdc9af0fa78b202c24ed84.bindPopup(popup_54bf5d15f411c8bed971afc6b3db2d6f)
+        ;
+
+        
+    
+    
+            var circle_marker_c1065f045f66160d932205f357988dfb = L.circleMarker(
+                [30.617735870967746, 76.7799520107527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.572604234068748, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_662a2b5952afec7a5933ca5b059905f4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d039ef55ff5cc3fd52d2875844c26755 = $(`<div id="html_d039ef55ff5cc3fd52d2875844c26755" style="width: 100.0%; height: 100.0%;"><b>Rank 3: Zone 97 (Chandigarh)</b><br>Window: 04:00 - 07:59 (Early Morning)<br>Predicted High Prob: 0.86<br>Actual Tier: MEDIUM</div>`)[0];
+                popup_662a2b5952afec7a5933ca5b059905f4.setContent(html_d039ef55ff5cc3fd52d2875844c26755);
+            
+        
+
+        circle_marker_c1065f045f66160d932205f357988dfb.bindPopup(popup_662a2b5952afec7a5933ca5b059905f4)
+        ;
+
+        
+    
+    
+            var circle_marker_1779c47b0fc3c9ffea12d3d128e183ac = L.circleMarker(
+                [30.617735870967746, 76.7799520107527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.404635657154326, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_6fa0e5cbba0054216c9c2b2838baad72 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_03b7122dfc817a3760d08cdbc2e56a87 = $(`<div id="html_03b7122dfc817a3760d08cdbc2e56a87" style="width: 100.0%; height: 100.0%;"><b>Rank 4: Zone 97 (Chandigarh)</b><br>Window: 20:00 - 23:59 (Night)<br>Predicted High Prob: 0.84<br>Actual Tier: LOW</div>`)[0];
+                popup_6fa0e5cbba0054216c9c2b2838baad72.setContent(html_03b7122dfc817a3760d08cdbc2e56a87);
+            
+        
+
+        circle_marker_1779c47b0fc3c9ffea12d3d128e183ac.bindPopup(popup_6fa0e5cbba0054216c9c2b2838baad72)
+        ;
+
+        
+    
+    
+            var circle_marker_0aebf298ce0d4fa0c485da425743128a = L.circleMarker(
+                [18.49660929931973, 73.8832513537415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.377428556635042, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_a72eab765806ecd5ceac13abf2ba73fc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ebf51d65f151491603b0423854b656ad = $(`<div id="html_ebf51d65f151491603b0423854b656ad" style="width: 100.0%; height: 100.0%;"><b>Rank 5: Zone 363 (Pune)</b><br>Window: 04:00 - 07:59 (Early Morning)<br>Predicted High Prob: 0.84<br>Actual Tier: MEDIUM</div>`)[0];
+                popup_a72eab765806ecd5ceac13abf2ba73fc.setContent(html_ebf51d65f151491603b0423854b656ad);
+            
+        
+
+        circle_marker_0aebf298ce0d4fa0c485da425743128a.bindPopup(popup_a72eab765806ecd5ceac13abf2ba73fc)
+        ;
+
+        
+    
+    
+            var circle_marker_362b511ea3b714c7ddc2e014fb84f6b2 = L.circleMarker(
+                [30.617735870967746, 76.7799520107527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.358478271038896, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_a8c6f0593d9aa48fbec13085e299e246 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_db28ddb20c42a74508cc962a27f6137d = $(`<div id="html_db28ddb20c42a74508cc962a27f6137d" style="width: 100.0%; height: 100.0%;"><b>Rank 6: Zone 97 (Chandigarh)</b><br>Window: 16:00 - 19:59 (Evening Rush)<br>Predicted High Prob: 0.84<br>Actual Tier: HIGH</div>`)[0];
+                popup_a8c6f0593d9aa48fbec13085e299e246.setContent(html_db28ddb20c42a74508cc962a27f6137d);
+            
+        
+
+        circle_marker_362b511ea3b714c7ddc2e014fb84f6b2.bindPopup(popup_a8c6f0593d9aa48fbec13085e299e246)
+        ;
+
+        
+    
+    
+            var circle_marker_f75a0b36f39bfddc6b298e098c30baf7 = L.circleMarker(
+                [30.617735870967746, 76.7799520107527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.35717612690215, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_e6d1b51d3f3d02b3b665d54ff394d28a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_34dc6ae505251972d81ff00a8ac43124 = $(`<div id="html_34dc6ae505251972d81ff00a8ac43124" style="width: 100.0%; height: 100.0%;"><b>Rank 7: Zone 97 (Chandigarh)</b><br>Window: 20:00 - 23:59 (Night)<br>Predicted High Prob: 0.84<br>Actual Tier: HIGH</div>`)[0];
+                popup_e6d1b51d3f3d02b3b665d54ff394d28a.setContent(html_34dc6ae505251972d81ff00a8ac43124);
+            
+        
+
+        circle_marker_f75a0b36f39bfddc6b298e098c30baf7.bindPopup(popup_e6d1b51d3f3d02b3b665d54ff394d28a)
+        ;
+
+        
+    
+    
+            var circle_marker_edc5401518ca17467f2309f919c60ad4 = L.circleMarker(
+                [17.277668867469885, 78.27840720481929],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.299960425118739, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_87f5ae1eb1d9cc1a4d0c455bd9b42b64 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ecb5f65c8d630049576277b67324c81f = $(`<div id="html_ecb5f65c8d630049576277b67324c81f" style="width: 100.0%; height: 100.0%;"><b>Rank 8: Zone 233 (Hyderabad)</b><br>Window: 12:00 - 15:59 (Afternoon)<br>Predicted High Prob: 0.83<br>Actual Tier: LOW</div>`)[0];
+                popup_87f5ae1eb1d9cc1a4d0c455bd9b42b64.setContent(html_ecb5f65c8d630049576277b67324c81f);
+            
+        
+
+        circle_marker_edc5401518ca17467f2309f919c60ad4.bindPopup(popup_87f5ae1eb1d9cc1a4d0c455bd9b42b64)
+        ;
+
+        
+    
+    
+            var circle_marker_b8bb2b2b0ad8c8cd532553263dbba266 = L.circleMarker(
+                [18.49660929931973, 73.8832513537415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.296372601462329, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_6bc226f82e4e33568f406780ad4b5706 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_73613907a389e9f3618c99d4c4fcaf12 = $(`<div id="html_73613907a389e9f3618c99d4c4fcaf12" style="width: 100.0%; height: 100.0%;"><b>Rank 9: Zone 363 (Pune)</b><br>Window: 04:00 - 07:59 (Early Morning)<br>Predicted High Prob: 0.83<br>Actual Tier: HIGH</div>`)[0];
+                popup_6bc226f82e4e33568f406780ad4b5706.setContent(html_73613907a389e9f3618c99d4c4fcaf12);
+            
+        
+
+        circle_marker_b8bb2b2b0ad8c8cd532553263dbba266.bindPopup(popup_6bc226f82e4e33568f406780ad4b5706)
+        ;
+
+        
+    
+    
+            var circle_marker_af6374e8d76c4a157c9b04bd1560ca03 = L.circleMarker(
+                [30.617735870967746, 76.7799520107527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.263324787530463, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_1270d2fced00e94891911dd5ae4ad296 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f47ee571269c75790969bbd3d9ef7dc0 = $(`<div id="html_f47ee571269c75790969bbd3d9ef7dc0" style="width: 100.0%; height: 100.0%;"><b>Rank 10: Zone 97 (Chandigarh)</b><br>Window: 16:00 - 19:59 (Evening Rush)<br>Predicted High Prob: 0.83<br>Actual Tier: MEDIUM</div>`)[0];
+                popup_1270d2fced00e94891911dd5ae4ad296.setContent(html_f47ee571269c75790969bbd3d9ef7dc0);
+            
+        
+
+        circle_marker_af6374e8d76c4a157c9b04bd1560ca03.bindPopup(popup_1270d2fced00e94891911dd5ae4ad296)
+        ;
+
+        
+    
+    
+            var circle_marker_d77cae95ec91785ad9f8b27ae90f51bc = L.circleMarker(
+                [17.40203289473684, 78.29139090350877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.255109305774365, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_6aaee38ee9c0717c5751fb9549801459 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f8f265ef9648f116ceb34383b2a6bb3 = $(`<div id="html_6f8f265ef9648f116ceb34383b2a6bb3" style="width: 100.0%; height: 100.0%;"><b>Rank 11: Zone 223 (Hyderabad)</b><br>Window: 04:00 - 07:59 (Early Morning)<br>Predicted High Prob: 0.83<br>Actual Tier: HIGH</div>`)[0];
+                popup_6aaee38ee9c0717c5751fb9549801459.setContent(html_6f8f265ef9648f116ceb34383b2a6bb3);
+            
+        
+
+        circle_marker_d77cae95ec91785ad9f8b27ae90f51bc.bindPopup(popup_6aaee38ee9c0717c5751fb9549801459)
+        ;
+
+        
+    
+    
+            var circle_marker_1e9b74c41d03b4fdf820615976e6448f = L.circleMarker(
+                [17.40203289473684, 78.29139090350877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.225391063342135, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_fede48ac126e0cdeb9129d44165902bd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5c81795937683d95db266fb88a56f24a = $(`<div id="html_5c81795937683d95db266fb88a56f24a" style="width: 100.0%; height: 100.0%;"><b>Rank 12: Zone 223 (Hyderabad)</b><br>Window: 16:00 - 19:59 (Evening Rush)<br>Predicted High Prob: 0.82<br>Actual Tier: LOW</div>`)[0];
+                popup_fede48ac126e0cdeb9129d44165902bd.setContent(html_5c81795937683d95db266fb88a56f24a);
+            
+        
+
+        circle_marker_1e9b74c41d03b4fdf820615976e6448f.bindPopup(popup_fede48ac126e0cdeb9129d44165902bd)
+        ;
+
+        
+    
+    
+            var circle_marker_102b2705aa7cd45690d4a78b391790a1 = L.circleMarker(
+                [17.40203289473684, 78.29139090350877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.20989659982889, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_09c6e9574dbb34f23a18f7778245021f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_74f3069ea5de5394b7d81bb57aebc17a = $(`<div id="html_74f3069ea5de5394b7d81bb57aebc17a" style="width: 100.0%; height: 100.0%;"><b>Rank 13: Zone 223 (Hyderabad)</b><br>Window: 16:00 - 19:59 (Evening Rush)<br>Predicted High Prob: 0.82<br>Actual Tier: MEDIUM</div>`)[0];
+                popup_09c6e9574dbb34f23a18f7778245021f.setContent(html_74f3069ea5de5394b7d81bb57aebc17a);
+            
+        
+
+        circle_marker_102b2705aa7cd45690d4a78b391790a1.bindPopup(popup_09c6e9574dbb34f23a18f7778245021f)
+        ;
+
+        
+    
+    
+            var circle_marker_4837529d6fc842d214ac44c4283e29b3 = L.circleMarker(
+                [30.617735870967746, 76.7799520107527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.193481008580967, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_fa4d12753c359e9f5e04b12d502ce431 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8008b05a40847f4bbac0f8d74a437837 = $(`<div id="html_8008b05a40847f4bbac0f8d74a437837" style="width: 100.0%; height: 100.0%;"><b>Rank 14: Zone 97 (Chandigarh)</b><br>Window: 04:00 - 07:59 (Early Morning)<br>Predicted High Prob: 0.82<br>Actual Tier: LOW</div>`)[0];
+                popup_fa4d12753c359e9f5e04b12d502ce431.setContent(html_8008b05a40847f4bbac0f8d74a437837);
+            
+        
+
+        circle_marker_4837529d6fc842d214ac44c4283e29b3.bindPopup(popup_fa4d12753c359e9f5e04b12d502ce431)
+        ;
+
+        
+    
+    
+            var circle_marker_30db44a7d3ba93552c4321e181007f57 = L.circleMarker(
+                [13.149633450704224, 80.13139130985915],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.185790179449064, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_786abf087d4196e5ef02fbc8dfa557de = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_809ce643f634e57c160fc88e91b826f2 = $(`<div id="html_809ce643f634e57c160fc88e91b826f2" style="width: 100.0%; height: 100.0%;"><b>Rank 15: Zone 138 (Chennai)</b><br>Window: 04:00 - 07:59 (Early Morning)<br>Predicted High Prob: 0.82<br>Actual Tier: LOW</div>`)[0];
+                popup_786abf087d4196e5ef02fbc8dfa557de.setContent(html_809ce643f634e57c160fc88e91b826f2);
+            
+        
+
+        circle_marker_30db44a7d3ba93552c4321e181007f57.bindPopup(popup_786abf087d4196e5ef02fbc8dfa557de)
+        ;
+
+        
+    
+    
+            var circle_marker_db11556f888f4cca106b454ee876bfe9 = L.circleMarker(
+                [17.466147387755104, 78.48164299999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.130730570242852, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_e4167c5424c5aa2838008837a54105b5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fb9986611d8e9cf6ccef9e065e3b5e66 = $(`<div id="html_fb9986611d8e9cf6ccef9e065e3b5e66" style="width: 100.0%; height: 100.0%;"><b>Rank 16: Zone 248 (Hyderabad)</b><br>Window: 20:00 - 23:59 (Night)<br>Predicted High Prob: 0.81<br>Actual Tier: LOW</div>`)[0];
+                popup_e4167c5424c5aa2838008837a54105b5.setContent(html_fb9986611d8e9cf6ccef9e065e3b5e66);
+            
+        
+
+        circle_marker_db11556f888f4cca106b454ee876bfe9.bindPopup(popup_e4167c5424c5aa2838008837a54105b5)
+        ;
+
+        
+    
+    
+            var circle_marker_b1ab476fe670899c41174e1d292cba3b = L.circleMarker(
+                [13.126916133333332, 77.5816332],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.125252012777764, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_29ed9a37f5570c9bdabec3c3555d8e91 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cddd63305d03ecc9f93a4a009fdc76d9 = $(`<div id="html_cddd63305d03ecc9f93a4a009fdc76d9" style="width: 100.0%; height: 100.0%;"><b>Rank 17: Zone 51 (Bangalore)</b><br>Window: 04:00 - 07:59 (Early Morning)<br>Predicted High Prob: 0.81<br>Actual Tier: MEDIUM</div>`)[0];
+                popup_29ed9a37f5570c9bdabec3c3555d8e91.setContent(html_cddd63305d03ecc9f93a4a009fdc76d9);
+            
+        
+
+        circle_marker_b1ab476fe670899c41174e1d292cba3b.bindPopup(popup_29ed9a37f5570c9bdabec3c3555d8e91)
+        ;
+
+        
+    
+    
+            var circle_marker_7b346bc639eb388d95d296b26bbee278 = L.circleMarker(
+                [13.126916133333332, 77.5816332],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.1240325666478, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_dba744c8451f63708ca4de4e569d8d7d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_34257b590d1ad939cfaedb2c63740bd8 = $(`<div id="html_34257b590d1ad939cfaedb2c63740bd8" style="width: 100.0%; height: 100.0%;"><b>Rank 18: Zone 51 (Bangalore)</b><br>Window: 00:00 - 03:59 (Late Night)<br>Predicted High Prob: 0.81<br>Actual Tier: HIGH</div>`)[0];
+                popup_dba744c8451f63708ca4de4e569d8d7d.setContent(html_34257b590d1ad939cfaedb2c63740bd8);
+            
+        
+
+        circle_marker_7b346bc639eb388d95d296b26bbee278.bindPopup(popup_dba744c8451f63708ca4de4e569d8d7d)
+        ;
+
+        
+    
+    
+            var circle_marker_fa5434e936c33d08dc5a39425ccf07d2 = L.circleMarker(
+                [18.49660929931973, 73.8832513537415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.112208803865927, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_deb20dd1fa458b2c617e1d9b1a5c2588 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6dbce260276c5855ece8732b70a53089 = $(`<div id="html_6dbce260276c5855ece8732b70a53089" style="width: 100.0%; height: 100.0%;"><b>Rank 19: Zone 363 (Pune)</b><br>Window: 12:00 - 15:59 (Afternoon)<br>Predicted High Prob: 0.81<br>Actual Tier: MEDIUM</div>`)[0];
+                popup_deb20dd1fa458b2c617e1d9b1a5c2588.setContent(html_6dbce260276c5855ece8732b70a53089);
+            
+        
+
+        circle_marker_fa5434e936c33d08dc5a39425ccf07d2.bindPopup(popup_deb20dd1fa458b2c617e1d9b1a5c2588)
+        ;
+
+        
+    
+    
+            var circle_marker_db6c201b6f520e64502acfa939731e28 = L.circleMarker(
+                [17.40203289473684, 78.29139090350877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.07540863633761, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_813c2a454e05622d5e74ef2764348549 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_40c384c635f6048e4110905c9e869af9 = $(`<div id="html_40c384c635f6048e4110905c9e869af9" style="width: 100.0%; height: 100.0%;"><b>Rank 20: Zone 223 (Hyderabad)</b><br>Window: 04:00 - 07:59 (Early Morning)<br>Predicted High Prob: 0.81<br>Actual Tier: LOW</div>`)[0];
+                popup_813c2a454e05622d5e74ef2764348549.setContent(html_40c384c635f6048e4110905c9e869af9);
+            
+        
+
+        circle_marker_db6c201b6f520e64502acfa939731e28.bindPopup(popup_813c2a454e05622d5e74ef2764348549)
+        ;
+
+        
+    
+    
+            var circle_marker_46a249e69aba5546bab8b6455ee83a42 = L.circleMarker(
+                [13.149633450704224, 80.13139130985915],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.051093844147104, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_5663d06449cacf0471abe8a3b7e4845c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26a4e2347344de22b83c71cba65f3785 = $(`<div id="html_26a4e2347344de22b83c71cba65f3785" style="width: 100.0%; height: 100.0%;"><b>Rank 21: Zone 138 (Chennai)</b><br>Window: 04:00 - 07:59 (Early Morning)<br>Predicted High Prob: 0.81<br>Actual Tier: HIGH</div>`)[0];
+                popup_5663d06449cacf0471abe8a3b7e4845c.setContent(html_26a4e2347344de22b83c71cba65f3785);
+            
+        
+
+        circle_marker_46a249e69aba5546bab8b6455ee83a42.bindPopup(popup_5663d06449cacf0471abe8a3b7e4845c)
+        ;
+
+        
+    
+    
+            var circle_marker_9e9f032720df1fb9f4aa81e82275e3b0 = L.circleMarker(
+                [18.49660929931973, 73.8832513537415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.036079030903183, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_b610464f65f9d26b53d04dd3c2396025 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_be2458fadd48fdf2d051ae565cf04dca = $(`<div id="html_be2458fadd48fdf2d051ae565cf04dca" style="width: 100.0%; height: 100.0%;"><b>Rank 22: Zone 363 (Pune)</b><br>Window: 16:00 - 19:59 (Evening Rush)<br>Predicted High Prob: 0.80<br>Actual Tier: MEDIUM</div>`)[0];
+                popup_b610464f65f9d26b53d04dd3c2396025.setContent(html_be2458fadd48fdf2d051ae565cf04dca);
+            
+        
+
+        circle_marker_9e9f032720df1fb9f4aa81e82275e3b0.bindPopup(popup_b610464f65f9d26b53d04dd3c2396025)
+        ;
+
+        
+    
+    
+            var circle_marker_128b4b27b180806f405433aa7b2df007 = L.circleMarker(
+                [13.126916133333332, 77.5816332],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.991103633634635, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_f94c24b68c0ea591e125b3cd7f4d3f29 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8d1df44ef1a6f949699449536c0cbf32 = $(`<div id="html_8d1df44ef1a6f949699449536c0cbf32" style="width: 100.0%; height: 100.0%;"><b>Rank 23: Zone 51 (Bangalore)</b><br>Window: 16:00 - 19:59 (Evening Rush)<br>Predicted High Prob: 0.80<br>Actual Tier: MEDIUM</div>`)[0];
+                popup_f94c24b68c0ea591e125b3cd7f4d3f29.setContent(html_8d1df44ef1a6f949699449536c0cbf32);
+            
+        
+
+        circle_marker_128b4b27b180806f405433aa7b2df007.bindPopup(popup_f94c24b68c0ea591e125b3cd7f4d3f29)
+        ;
+
+        
+    
+    
+            var circle_marker_e98ab5e14cc404414b0b25d9bae71409 = L.circleMarker(
+                [17.40203289473684, 78.29139090350877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.989536847213103, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_19c97a271b3389f131d43f80af8d4a27 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4a21686f736771ab222306c317b01ed1 = $(`<div id="html_4a21686f736771ab222306c317b01ed1" style="width: 100.0%; height: 100.0%;"><b>Rank 24: Zone 223 (Hyderabad)</b><br>Window: 08:00 - 11:59 (Morning Rush)<br>Predicted High Prob: 0.80<br>Actual Tier: LOW</div>`)[0];
+                popup_19c97a271b3389f131d43f80af8d4a27.setContent(html_4a21686f736771ab222306c317b01ed1);
+            
+        
+
+        circle_marker_e98ab5e14cc404414b0b25d9bae71409.bindPopup(popup_19c97a271b3389f131d43f80af8d4a27)
+        ;
+
+        
+    
+    
+            var circle_marker_4f67a5357a616e406eff714ba51f3436 = L.circleMarker(
+                [13.126916133333332, 77.5816332],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.966851591011181, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_0d60bf3ef056d75cc935e1749dd0e8b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e53c74926cb489495bb4dadebe218ef1 = $(`<div id="html_e53c74926cb489495bb4dadebe218ef1" style="width: 100.0%; height: 100.0%;"><b>Rank 25: Zone 51 (Bangalore)</b><br>Window: 12:00 - 15:59 (Afternoon)<br>Predicted High Prob: 0.80<br>Actual Tier: HIGH</div>`)[0];
+                popup_0d60bf3ef056d75cc935e1749dd0e8b8.setContent(html_e53c74926cb489495bb4dadebe218ef1);
+            
+        
+
+        circle_marker_4f67a5357a616e406eff714ba51f3436.bindPopup(popup_0d60bf3ef056d75cc935e1749dd0e8b8)
+        ;
+
+        
+    
+    
+            var circle_marker_84758204f19db463cf9c1508726d798b = L.circleMarker(
+                [17.277668867469885, 78.27840720481929],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.963715951452887, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_5122c80ff39c8829934f901f04d24349 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_579d12d55aa736f15826e134fb782bb1 = $(`<div id="html_579d12d55aa736f15826e134fb782bb1" style="width: 100.0%; height: 100.0%;"><b>Rank 26: Zone 233 (Hyderabad)</b><br>Window: 00:00 - 03:59 (Late Night)<br>Predicted High Prob: 0.80<br>Actual Tier: LOW</div>`)[0];
+                popup_5122c80ff39c8829934f901f04d24349.setContent(html_579d12d55aa736f15826e134fb782bb1);
+            
+        
+
+        circle_marker_84758204f19db463cf9c1508726d798b.bindPopup(popup_5122c80ff39c8829934f901f04d24349)
+        ;
+
+        
+    
+    
+            var circle_marker_2c21183a6459db0f10de692b8c8f040e = L.circleMarker(
+                [18.49660929931973, 73.8832513537415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.935692738161169, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_c16ea5ad59e80775f51a078929f60b49 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dc609bb1df84bd1da7c65fc04cd64e9d = $(`<div id="html_dc609bb1df84bd1da7c65fc04cd64e9d" style="width: 100.0%; height: 100.0%;"><b>Rank 27: Zone 363 (Pune)</b><br>Window: 12:00 - 15:59 (Afternoon)<br>Predicted High Prob: 0.79<br>Actual Tier: HIGH</div>`)[0];
+                popup_c16ea5ad59e80775f51a078929f60b49.setContent(html_dc609bb1df84bd1da7c65fc04cd64e9d);
+            
+        
+
+        circle_marker_2c21183a6459db0f10de692b8c8f040e.bindPopup(popup_c16ea5ad59e80775f51a078929f60b49)
+        ;
+
+        
+    
+    
+            var circle_marker_44a372481f8e4c66379081eb1a58e915 = L.circleMarker(
+                [18.49660929931973, 73.8832513537415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.902872946732783, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_1e077972de7c2be375c25097b43c5b8f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f31268f709c2d71a5ab6ba96e66b0ba4 = $(`<div id="html_f31268f709c2d71a5ab6ba96e66b0ba4" style="width: 100.0%; height: 100.0%;"><b>Rank 28: Zone 363 (Pune)</b><br>Window: 16:00 - 19:59 (Evening Rush)<br>Predicted High Prob: 0.79<br>Actual Tier: HIGH</div>`)[0];
+                popup_1e077972de7c2be375c25097b43c5b8f.setContent(html_f31268f709c2d71a5ab6ba96e66b0ba4);
+            
+        
+
+        circle_marker_44a372481f8e4c66379081eb1a58e915.bindPopup(popup_1e077972de7c2be375c25097b43c5b8f)
+        ;
+
+        
+    
+    
+            var circle_marker_ddc54483c1f5f1a0b31b51c3f609b649 = L.circleMarker(
+                [30.617735870967746, 76.7799520107527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.887830427528616, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_f002765d225f298742b78bc6a15acdc8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7e2b4abbffe5f0ce780970c3723c2413 = $(`<div id="html_7e2b4abbffe5f0ce780970c3723c2413" style="width: 100.0%; height: 100.0%;"><b>Rank 29: Zone 97 (Chandigarh)</b><br>Window: 20:00 - 23:59 (Night)<br>Predicted High Prob: 0.79<br>Actual Tier: LOW</div>`)[0];
+                popup_f002765d225f298742b78bc6a15acdc8.setContent(html_7e2b4abbffe5f0ce780970c3723c2413);
+            
+        
+
+        circle_marker_ddc54483c1f5f1a0b31b51c3f609b649.bindPopup(popup_f002765d225f298742b78bc6a15acdc8)
+        ;
+
+        
+    
+    
+            var circle_marker_8fc2ffd94c6eb776874be19a35b88951 = L.circleMarker(
+                [17.40203289473684, 78.29139090350877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.88426959552364, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_42c2e6bada8cad188d41d89732e361bb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5154e5628af6cd1d1bd07cd9ab077d48 = $(`<div id="html_5154e5628af6cd1d1bd07cd9ab077d48" style="width: 100.0%; height: 100.0%;"><b>Rank 30: Zone 223 (Hyderabad)</b><br>Window: 12:00 - 15:59 (Afternoon)<br>Predicted High Prob: 0.79<br>Actual Tier: HIGH</div>`)[0];
+                popup_42c2e6bada8cad188d41d89732e361bb.setContent(html_5154e5628af6cd1d1bd07cd9ab077d48);
+            
+        
+
+        circle_marker_8fc2ffd94c6eb776874be19a35b88951.bindPopup(popup_42c2e6bada8cad188d41d89732e361bb)
+        ;
+
+        
+    
+    
+            var circle_marker_ffc7656516ce99259d33890662a64eab = L.circleMarker(
+                [13.149633450704224, 80.13139130985915],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.84688148372219, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_1637562d4969d3a765f99f918785975e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e9d92c924bd5cd030af43ea5a88f19e6 = $(`<div id="html_e9d92c924bd5cd030af43ea5a88f19e6" style="width: 100.0%; height: 100.0%;"><b>Rank 31: Zone 138 (Chennai)</b><br>Window: 04:00 - 07:59 (Early Morning)<br>Predicted High Prob: 0.78<br>Actual Tier: HIGH</div>`)[0];
+                popup_1637562d4969d3a765f99f918785975e.setContent(html_e9d92c924bd5cd030af43ea5a88f19e6);
+            
+        
+
+        circle_marker_ffc7656516ce99259d33890662a64eab.bindPopup(popup_1637562d4969d3a765f99f918785975e)
+        ;
+
+        
+    
+    
+            var circle_marker_226925d90274010e749fc812236942ac = L.circleMarker(
+                [18.49660929931973, 73.8832513537415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.839074140514379, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_80501c5200d1b99f72d7aad4c1f8e170 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6d1a68ded995281799ab62d89050724d = $(`<div id="html_6d1a68ded995281799ab62d89050724d" style="width: 100.0%; height: 100.0%;"><b>Rank 32: Zone 363 (Pune)</b><br>Window: 00:00 - 03:59 (Late Night)<br>Predicted High Prob: 0.78<br>Actual Tier: HIGH</div>`)[0];
+                popup_80501c5200d1b99f72d7aad4c1f8e170.setContent(html_6d1a68ded995281799ab62d89050724d);
+            
+        
+
+        circle_marker_226925d90274010e749fc812236942ac.bindPopup(popup_80501c5200d1b99f72d7aad4c1f8e170)
+        ;
+
+        
+    
+    
+            var circle_marker_9ff8db7d7768f6335b6293d9af847686 = L.circleMarker(
+                [17.40203289473684, 78.29139090350877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.831986593562577, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_8c36e6de8a93e2e09581293005f36d51 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e3da28b48c70a30815387fd25a1545b6 = $(`<div id="html_e3da28b48c70a30815387fd25a1545b6" style="width: 100.0%; height: 100.0%;"><b>Rank 33: Zone 223 (Hyderabad)</b><br>Window: 04:00 - 07:59 (Early Morning)<br>Predicted High Prob: 0.78<br>Actual Tier: HIGH</div>`)[0];
+                popup_8c36e6de8a93e2e09581293005f36d51.setContent(html_e3da28b48c70a30815387fd25a1545b6);
+            
+        
+
+        circle_marker_9ff8db7d7768f6335b6293d9af847686.bindPopup(popup_8c36e6de8a93e2e09581293005f36d51)
+        ;
+
+        
+    
+    
+            var circle_marker_494a2c660647cb0b281cafa0248af9a0 = L.circleMarker(
+                [17.466147387755104, 78.48164299999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.78002985472551, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_fbd1d58a78cadcadb8f5f1c288e46083 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_68650106f16abaeb8c6b6a94e21a02c1 = $(`<div id="html_68650106f16abaeb8c6b6a94e21a02c1" style="width: 100.0%; height: 100.0%;"><b>Rank 34: Zone 248 (Hyderabad)</b><br>Window: 04:00 - 07:59 (Early Morning)<br>Predicted High Prob: 0.78<br>Actual Tier: LOW</div>`)[0];
+                popup_fbd1d58a78cadcadb8f5f1c288e46083.setContent(html_68650106f16abaeb8c6b6a94e21a02c1);
+            
+        
+
+        circle_marker_494a2c660647cb0b281cafa0248af9a0.bindPopup(popup_fbd1d58a78cadcadb8f5f1c288e46083)
+        ;
+
+        
+    
+    
+            var circle_marker_bd3b6d00271978712fde8630144412ea = L.circleMarker(
+                [17.40203289473684, 78.29139090350877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.762222667998357, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_bce6115990b7618183a97c2345ef10b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d5a99ee2e5c29fb393489c4fd73296a2 = $(`<div id="html_d5a99ee2e5c29fb393489c4fd73296a2" style="width: 100.0%; height: 100.0%;"><b>Rank 35: Zone 223 (Hyderabad)</b><br>Window: 08:00 - 11:59 (Morning Rush)<br>Predicted High Prob: 0.78<br>Actual Tier: HIGH</div>`)[0];
+                popup_bce6115990b7618183a97c2345ef10b8.setContent(html_d5a99ee2e5c29fb393489c4fd73296a2);
+            
+        
+
+        circle_marker_bd3b6d00271978712fde8630144412ea.bindPopup(popup_bce6115990b7618183a97c2345ef10b8)
+        ;
+
+        
+    
+    
+            var circle_marker_ee5695355f717c9955a04a6ee3b20ea8 = L.circleMarker(
+                [13.149633450704224, 80.13139130985915],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.751902348021597, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_948c77eb8ecce569873087f75737314f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b18ce740a9c9ced5904449d3c9e4616a = $(`<div id="html_b18ce740a9c9ced5904449d3c9e4616a" style="width: 100.0%; height: 100.0%;"><b>Rank 36: Zone 138 (Chennai)</b><br>Window: 00:00 - 03:59 (Late Night)<br>Predicted High Prob: 0.78<br>Actual Tier: LOW</div>`)[0];
+                popup_948c77eb8ecce569873087f75737314f.setContent(html_b18ce740a9c9ced5904449d3c9e4616a);
+            
+        
+
+        circle_marker_ee5695355f717c9955a04a6ee3b20ea8.bindPopup(popup_948c77eb8ecce569873087f75737314f)
+        ;
+
+        
+    
+    
+            var circle_marker_e61bdc7b42d4d35c502dae9751d0bb9e = L.circleMarker(
+                [30.617735870967746, 76.7799520107527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.735785870202001, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_a9ef8923453dda866a2b0a14e88974fb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f240f48fa2f43bfd68ee2fb772863a3 = $(`<div id="html_6f240f48fa2f43bfd68ee2fb772863a3" style="width: 100.0%; height: 100.0%;"><b>Rank 37: Zone 97 (Chandigarh)</b><br>Window: 08:00 - 11:59 (Morning Rush)<br>Predicted High Prob: 0.77<br>Actual Tier: LOW</div>`)[0];
+                popup_a9ef8923453dda866a2b0a14e88974fb.setContent(html_6f240f48fa2f43bfd68ee2fb772863a3);
+            
+        
+
+        circle_marker_e61bdc7b42d4d35c502dae9751d0bb9e.bindPopup(popup_a9ef8923453dda866a2b0a14e88974fb)
+        ;
+
+        
+    
+    
+            var circle_marker_9423e84828a5940a0db32e916b1cc7e2 = L.circleMarker(
+                [30.617735870967746, 76.7799520107527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.72867445987049, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_a88626c98747ac649264fa0ba1d89145 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_502f79b9bbb4e739d2b7489d8265df63 = $(`<div id="html_502f79b9bbb4e739d2b7489d8265df63" style="width: 100.0%; height: 100.0%;"><b>Rank 38: Zone 97 (Chandigarh)</b><br>Window: 08:00 - 11:59 (Morning Rush)<br>Predicted High Prob: 0.77<br>Actual Tier: LOW</div>`)[0];
+                popup_a88626c98747ac649264fa0ba1d89145.setContent(html_502f79b9bbb4e739d2b7489d8265df63);
+            
+        
+
+        circle_marker_9423e84828a5940a0db32e916b1cc7e2.bindPopup(popup_a88626c98747ac649264fa0ba1d89145)
+        ;
+
+        
+    
+    
+            var circle_marker_03ba8a20f4cf386fee6d69b6bb193a9c = L.circleMarker(
+                [17.40203289473684, 78.29139090350877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.726659194526766, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_c46391414f94623f93bbefbca744f7c9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_850e848bcae2d4d670f2e0f01c969ec6 = $(`<div id="html_850e848bcae2d4d670f2e0f01c969ec6" style="width: 100.0%; height: 100.0%;"><b>Rank 39: Zone 223 (Hyderabad)</b><br>Window: 08:00 - 11:59 (Morning Rush)<br>Predicted High Prob: 0.77<br>Actual Tier: HIGH</div>`)[0];
+                popup_c46391414f94623f93bbefbca744f7c9.setContent(html_850e848bcae2d4d670f2e0f01c969ec6);
+            
+        
+
+        circle_marker_03ba8a20f4cf386fee6d69b6bb193a9c.bindPopup(popup_c46391414f94623f93bbefbca744f7c9)
+        ;
+
+        
+    
+    
+            var circle_marker_af35d2bf44b6cac55ce48e9fed5ebcf3 = L.circleMarker(
+                [18.49660929931973, 73.8832513537415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.714997735331854, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_1df78095034045cff81b32c996b3daeb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f3a044aea6d46ed81d69dd8e2907575e = $(`<div id="html_f3a044aea6d46ed81d69dd8e2907575e" style="width: 100.0%; height: 100.0%;"><b>Rank 40: Zone 363 (Pune)</b><br>Window: 20:00 - 23:59 (Night)<br>Predicted High Prob: 0.77<br>Actual Tier: MEDIUM</div>`)[0];
+                popup_1df78095034045cff81b32c996b3daeb.setContent(html_f3a044aea6d46ed81d69dd8e2907575e);
+            
+        
+
+        circle_marker_af35d2bf44b6cac55ce48e9fed5ebcf3.bindPopup(popup_1df78095034045cff81b32c996b3daeb)
+        ;
+
+        
+    
+    
+            var circle_marker_506131b17b04de358f510067a086af42 = L.circleMarker(
+                [30.617735870967746, 76.7799520107527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.714097276342367, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_c06f9af9b34d5fc40077a65f4becc131 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_920083121b39cccf6134418b8b2f443a = $(`<div id="html_920083121b39cccf6134418b8b2f443a" style="width: 100.0%; height: 100.0%;"><b>Rank 41: Zone 97 (Chandigarh)</b><br>Window: 08:00 - 11:59 (Morning Rush)<br>Predicted High Prob: 0.77<br>Actual Tier: HIGH</div>`)[0];
+                popup_c06f9af9b34d5fc40077a65f4becc131.setContent(html_920083121b39cccf6134418b8b2f443a);
+            
+        
+
+        circle_marker_506131b17b04de358f510067a086af42.bindPopup(popup_c06f9af9b34d5fc40077a65f4becc131)
+        ;
+
+        
+    
+    
+            var circle_marker_7e3ecdc8450b1017d30081eb86cd4ea6 = L.circleMarker(
+                [17.466147387755104, 78.48164299999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.704170154831823, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_d26ad6945116223639d4def8e3aee724 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5fe4225652fd0a6f58074953df111eac = $(`<div id="html_5fe4225652fd0a6f58074953df111eac" style="width: 100.0%; height: 100.0%;"><b>Rank 42: Zone 248 (Hyderabad)</b><br>Window: 04:00 - 07:59 (Early Morning)<br>Predicted High Prob: 0.77<br>Actual Tier: LOW</div>`)[0];
+                popup_d26ad6945116223639d4def8e3aee724.setContent(html_5fe4225652fd0a6f58074953df111eac);
+            
+        
+
+        circle_marker_7e3ecdc8450b1017d30081eb86cd4ea6.bindPopup(popup_d26ad6945116223639d4def8e3aee724)
+        ;
+
+        
+    
+    
+            var circle_marker_00edfb60ceb10006d9dd6ebab9730103 = L.circleMarker(
+                [18.49660929931973, 73.8832513537415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.699051774495528, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_a4b19199b1a915cf57f72ea1833741a8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_63fcc5de636fb8d299e6beb97b9ed54a = $(`<div id="html_63fcc5de636fb8d299e6beb97b9ed54a" style="width: 100.0%; height: 100.0%;"><b>Rank 43: Zone 363 (Pune)</b><br>Window: 00:00 - 03:59 (Late Night)<br>Predicted High Prob: 0.77<br>Actual Tier: HIGH</div>`)[0];
+                popup_a4b19199b1a915cf57f72ea1833741a8.setContent(html_63fcc5de636fb8d299e6beb97b9ed54a);
+            
+        
+
+        circle_marker_00edfb60ceb10006d9dd6ebab9730103.bindPopup(popup_a4b19199b1a915cf57f72ea1833741a8)
+        ;
+
+        
+    
+    
+            var circle_marker_9126d53f9ebec74a3ca5b81a23411108 = L.circleMarker(
+                [18.49660929931973, 73.8832513537415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.696280456424574, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_92a7df502d58eb49a1d1585c548fe9ad = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3641d7c26e15d1637ee34a17ca5787a1 = $(`<div id="html_3641d7c26e15d1637ee34a17ca5787a1" style="width: 100.0%; height: 100.0%;"><b>Rank 44: Zone 363 (Pune)</b><br>Window: 00:00 - 03:59 (Late Night)<br>Predicted High Prob: 0.77<br>Actual Tier: LOW</div>`)[0];
+                popup_92a7df502d58eb49a1d1585c548fe9ad.setContent(html_3641d7c26e15d1637ee34a17ca5787a1);
+            
+        
+
+        circle_marker_9126d53f9ebec74a3ca5b81a23411108.bindPopup(popup_92a7df502d58eb49a1d1585c548fe9ad)
+        ;
+
+        
+    
+    
+            var circle_marker_87fad48b1b4b799c2c93df3487ce5dd3 = L.circleMarker(
+                [30.617735870967746, 76.7799520107527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.688835166570309, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_1a4aeca35986953e6eb5ab84b2950d6e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0473146332f443e3a82c674a62fe863c = $(`<div id="html_0473146332f443e3a82c674a62fe863c" style="width: 100.0%; height: 100.0%;"><b>Rank 45: Zone 97 (Chandigarh)</b><br>Window: 16:00 - 19:59 (Evening Rush)<br>Predicted High Prob: 0.77<br>Actual Tier: HIGH</div>`)[0];
+                popup_1a4aeca35986953e6eb5ab84b2950d6e.setContent(html_0473146332f443e3a82c674a62fe863c);
+            
+        
+
+        circle_marker_87fad48b1b4b799c2c93df3487ce5dd3.bindPopup(popup_1a4aeca35986953e6eb5ab84b2950d6e)
+        ;
+
+        
+    
+    
+            var circle_marker_0482c61103d35c48a23fb893443c4478 = L.circleMarker(
+                [22.563519224489795, 88.32345034693876],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.663693124848951, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_7966e8476329fa595d4362592b18df57 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f344b7113cb2458c62ff712c22c23193 = $(`<div id="html_f344b7113cb2458c62ff712c22c23193" style="width: 100.0%; height: 100.0%;"><b>Rank 46: Zone 273 (Kolkata)</b><br>Window: 08:00 - 11:59 (Morning Rush)<br>Predicted High Prob: 0.77<br>Actual Tier: LOW</div>`)[0];
+                popup_7966e8476329fa595d4362592b18df57.setContent(html_f344b7113cb2458c62ff712c22c23193);
+            
+        
+
+        circle_marker_0482c61103d35c48a23fb893443c4478.bindPopup(popup_7966e8476329fa595d4362592b18df57)
+        ;
+
+        
+    
+    
+            var circle_marker_a689c9a14159ffe11e2e075b9731c129 = L.circleMarker(
+                [17.466147387755104, 78.48164299999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.624379657774156, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_6c9392ff7c87e6fd58bb749ff24d83bd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1734c51c5d3314786c6023fdec142945 = $(`<div id="html_1734c51c5d3314786c6023fdec142945" style="width: 100.0%; height: 100.0%;"><b>Rank 47: Zone 248 (Hyderabad)</b><br>Window: 12:00 - 15:59 (Afternoon)<br>Predicted High Prob: 0.76<br>Actual Tier: MEDIUM</div>`)[0];
+                popup_6c9392ff7c87e6fd58bb749ff24d83bd.setContent(html_1734c51c5d3314786c6023fdec142945);
+            
+        
+
+        circle_marker_a689c9a14159ffe11e2e075b9731c129.bindPopup(popup_6c9392ff7c87e6fd58bb749ff24d83bd)
+        ;
+
+        
+    
+    
+            var circle_marker_c0c5acf5192c14867184074afb608e5a = L.circleMarker(
+                [17.40203289473684, 78.29139090350877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.607264842177903, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_a0ba0d8f96a5372ed167772c003c0bbe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4900d6e5bdf796f1b94a50b2b656524f = $(`<div id="html_4900d6e5bdf796f1b94a50b2b656524f" style="width: 100.0%; height: 100.0%;"><b>Rank 48: Zone 223 (Hyderabad)</b><br>Window: 00:00 - 03:59 (Late Night)<br>Predicted High Prob: 0.76<br>Actual Tier: MEDIUM</div>`)[0];
+                popup_a0ba0d8f96a5372ed167772c003c0bbe.setContent(html_4900d6e5bdf796f1b94a50b2b656524f);
+            
+        
+
+        circle_marker_c0c5acf5192c14867184074afb608e5a.bindPopup(popup_a0ba0d8f96a5372ed167772c003c0bbe)
+        ;
+
+        
+    
+    
+            var circle_marker_c28490c3b59a6178218cfc21b779d5a0 = L.circleMarker(
+                [30.617735870967746, 76.7799520107527],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.593960250036448, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_356882dd14f4d2b36843a93bc1cfc262 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_634e311243b91a5fc61daf7129397687 = $(`<div id="html_634e311243b91a5fc61daf7129397687" style="width: 100.0%; height: 100.0%;"><b>Rank 49: Zone 97 (Chandigarh)</b><br>Window: 12:00 - 15:59 (Afternoon)<br>Predicted High Prob: 0.76<br>Actual Tier: MEDIUM</div>`)[0];
+                popup_356882dd14f4d2b36843a93bc1cfc262.setContent(html_634e311243b91a5fc61daf7129397687);
+            
+        
+
+        circle_marker_c28490c3b59a6178218cfc21b779d5a0.bindPopup(popup_356882dd14f4d2b36843a93bc1cfc262)
+        ;
+
+        
+    
+    
+            var circle_marker_edfdd3558a59316f78cd2aeee2d33e01 = L.circleMarker(
+                [22.563519224489795, 88.32345034693876],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.56014927930796, "stroke": true, "weight": 3}
+            ).addTo(map_cf5b8a4c79e5ee84b6abf0f905f8f070);
+        
+    
+        var popup_61e071f6289b6c7ea2c73f2a26cf62c1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d2cc50e8e8a7c642922def9a7453b784 = $(`<div id="html_d2cc50e8e8a7c642922def9a7453b784" style="width: 100.0%; height: 100.0%;"><b>Rank 50: Zone 273 (Kolkata)</b><br>Window: 08:00 - 11:59 (Morning Rush)<br>Predicted High Prob: 0.76<br>Actual Tier: MEDIUM</div>`)[0];
+                popup_61e071f6289b6c7ea2c73f2a26cf62c1.setContent(html_d2cc50e8e8a7c642922def9a7453b784);
+            
+        
+
+        circle_marker_edfdd3558a59316f78cd2aeee2d33e01.bindPopup(popup_61e071f6289b6c7ea2c73f2a26cf62c1)
+        ;
+
+        
+    
+</script>
+</html>

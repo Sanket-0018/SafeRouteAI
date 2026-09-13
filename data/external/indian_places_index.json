@@ -1,0 +1,650 @@
+[
+  {
+    "display_name": "Pune, Maharashtra",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Pune Airport (Lohegaon), Pune, Maharashtra",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 18.5822,
+    "longitude": 73.9197,
+    "place_type": "airport"
+  },
+  {
+    "display_name": "Pune Junction Railway Station, Pune, Maharashtra",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 18.5284,
+    "longitude": 73.8739,
+    "place_type": "railway_station"
+  },
+  {
+    "display_name": "Hinjewadi IT Park, Pune, Maharashtra",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 18.5913,
+    "longitude": 73.7389,
+    "place_type": "locality"
+  },
+  {
+    "display_name": "Hadapsar, Pune, Maharashtra",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 18.5089,
+    "longitude": 73.926,
+    "place_type": "locality"
+  },
+  {
+    "display_name": "Nagpur, Maharashtra",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 21.1458,
+    "longitude": 79.0882,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Dr. Babasaheb Ambedkar International Airport, Nagpur, Maharashtra",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 21.0922,
+    "longitude": 79.0472,
+    "place_type": "airport"
+  },
+  {
+    "display_name": "Nagpur Junction Railway Station, Nagpur, Maharashtra",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 21.1524,
+    "longitude": 79.0889,
+    "place_type": "railway_station"
+  },
+  {
+    "display_name": "MIHAN / Butibori Industrial Area, Nagpur, Maharashtra",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 20.985,
+    "longitude": 79.023,
+    "place_type": "locality"
+  },
+  {
+    "display_name": "Mumbai, Maharashtra",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Chhatrapati Shivaji Maharaj International Airport (BOM), Mumbai, Maharashtra",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.0896,
+    "longitude": 72.8656,
+    "place_type": "airport"
+  },
+  {
+    "display_name": "Chhatrapati Shivaji Maharaj Terminus (CSMT), Mumbai, Maharashtra",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 18.9401,
+    "longitude": 72.8354,
+    "place_type": "railway_station"
+  },
+  {
+    "display_name": "Thane, Maharashtra",
+    "city": "Thane",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.2183,
+    "longitude": 72.9781,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Navi Mumbai, Maharashtra",
+    "city": "Navi Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.033,
+    "longitude": 73.0297,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Kalyan, Maharashtra",
+    "city": "Kalyan",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.2437,
+    "longitude": 73.1355,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Nashik, Maharashtra",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.9975,
+    "longitude": 73.7898,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Nashik Road Railway Station, Nashik, Maharashtra",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.9576,
+    "longitude": 73.834,
+    "place_type": "railway_station"
+  },
+  {
+    "display_name": "Ozar Airport, Nashik, Maharashtra",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 20.1194,
+    "longitude": 73.9139,
+    "place_type": "airport"
+  },
+  {
+    "display_name": "Chhatrapati Sambhajinagar (Aurangabad), Maharashtra",
+    "city": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.8762,
+    "longitude": 75.3433,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Aurangabad Airport, Chhatrapati Sambhajinagar, Maharashtra",
+    "city": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.8628,
+    "longitude": 75.3981,
+    "place_type": "airport"
+  },
+  {
+    "display_name": "Chhatrapati Sambhajinagar Railway Station, Maharashtra",
+    "city": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.866,
+    "longitude": 75.32,
+    "place_type": "railway_station"
+  },
+  {
+    "display_name": "Solapur, Maharashtra",
+    "city": "Solapur",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 17.6599,
+    "longitude": 75.9064,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Solapur Railway Station, Solapur, Maharashtra",
+    "city": "Solapur",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 17.6715,
+    "longitude": 75.9108,
+    "place_type": "railway_station"
+  },
+  {
+    "display_name": "Kolhapur, Maharashtra",
+    "city": "Kolhapur",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 16.705,
+    "longitude": 74.2433,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Chhatrapati Shahu Maharaj Terminus (Kolhapur), Maharashtra",
+    "city": "Kolhapur",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 16.699,
+    "longitude": 74.238,
+    "place_type": "railway_station"
+  },
+  {
+    "display_name": "Amravati, Maharashtra",
+    "city": "Amravati",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 20.932,
+    "longitude": 77.7523,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Ahmednagar, Maharashtra",
+    "city": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.0952,
+    "longitude": 74.748,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Jalna, Maharashtra",
+    "city": "Jalna",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.8347,
+    "longitude": 75.8816,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Latur, Maharashtra",
+    "city": "Latur",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 18.4088,
+    "longitude": 76.5604,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Nanded, Maharashtra",
+    "city": "Nanded",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.1383,
+    "longitude": 77.321,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Satara, Maharashtra",
+    "city": "Satara",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 17.6805,
+    "longitude": 73.9936,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Sangli, Maharashtra",
+    "city": "Sangli",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 16.8524,
+    "longitude": 74.5815,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Chandrapur, Maharashtra",
+    "city": "Chandrapur",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.9615,
+    "longitude": 79.2961,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Dhule, Maharashtra",
+    "city": "Dhule",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 20.9042,
+    "longitude": 74.7749,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Jalgaon, Maharashtra",
+    "city": "Jalgaon",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 21.0077,
+    "longitude": 75.5626,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Akola, Maharashtra",
+    "city": "Akola",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 20.7002,
+    "longitude": 77.0082,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Ratnagiri, Maharashtra",
+    "city": "Ratnagiri",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 16.9902,
+    "longitude": 73.312,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Sindhudurg, Maharashtra",
+    "city": "Sindhudurg",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 16.1158,
+    "longitude": 73.728,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Wardha, Maharashtra",
+    "city": "Wardha",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 20.7453,
+    "longitude": 78.6022,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Yavatmal, Maharashtra",
+    "city": "Yavatmal",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 20.3888,
+    "longitude": 78.1204,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Buldhana, Maharashtra",
+    "city": "Buldhana",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 20.5292,
+    "longitude": 76.1843,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Washim, Maharashtra",
+    "city": "Washim",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 20.111,
+    "longitude": 77.134,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Gondia, Maharashtra",
+    "city": "Gondia",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 21.4602,
+    "longitude": 80.1961,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Bhandara, Maharashtra",
+    "city": "Bhandara",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 21.1714,
+    "longitude": 79.6548,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Beed, Maharashtra",
+    "city": "Beed",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 18.9891,
+    "longitude": 75.7601,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Osmanabad (Dharashiv), Maharashtra",
+    "city": "Dharashiv",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 18.1856,
+    "longitude": 76.0419,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Parbhani, Maharashtra",
+    "city": "Parbhani",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.2686,
+    "longitude": 76.7708,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Hingoli, Maharashtra",
+    "city": "Hingoli",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.7196,
+    "longitude": 77.1475,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Gadchiroli, Maharashtra",
+    "city": "Gadchiroli",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 20.1809,
+    "longitude": 79.9949,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Nandurbar, Maharashtra",
+    "city": "Nandurbar",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 21.3739,
+    "longitude": 74.2403,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Palghar, Maharashtra",
+    "city": "Palghar",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.6967,
+    "longitude": 72.7655,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Raigad (Alibag), Maharashtra",
+    "city": "Alibag",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 18.6534,
+    "longitude": 72.8797,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Shirdi, Ahmednagar, Maharashtra",
+    "city": "Shirdi",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 19.7645,
+    "longitude": 74.4762,
+    "place_type": "town"
+  },
+  {
+    "display_name": "Mahabaleshwar, Satara, Maharashtra",
+    "city": "Mahabaleshwar",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 17.9237,
+    "longitude": 73.6586,
+    "place_type": "town"
+  },
+  {
+    "display_name": "Lonavala, Pune, Maharashtra",
+    "city": "Lonavala",
+    "state": "Maharashtra",
+    "country": "India",
+    "latitude": 18.7557,
+    "longitude": 73.4091,
+    "place_type": "town"
+  },
+  {
+    "display_name": "Bengaluru (Bangalore), Karnataka",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Kempegowda International Airport (BLR), Bengaluru, Karnataka",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "latitude": 13.1986,
+    "longitude": 77.7066,
+    "place_type": "airport"
+  },
+  {
+    "display_name": "Hyderabad, Telangana",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "latitude": 17.385,
+    "longitude": 78.4867,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Rajiv Gandhi International Airport (HYD), Hyderabad, Telangana",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "latitude": 17.2403,
+    "longitude": 78.4294,
+    "place_type": "airport"
+  },
+  {
+    "display_name": "New Delhi, Delhi",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "latitude": 28.6139,
+    "longitude": 77.209,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Indira Gandhi International Airport (DEL), New Delhi, Delhi",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "latitude": 28.5562,
+    "longitude": 77.1,
+    "place_type": "airport"
+  },
+  {
+    "display_name": "Chennai, Tamil Nadu",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Kolkata, West Bengal",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India",
+    "latitude": 22.5726,
+    "longitude": 88.3639,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Chandigarh, Punjab / Haryana",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "country": "India",
+    "latitude": 30.7333,
+    "longitude": 76.7794,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Ahmedabad, Gujarat",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "country": "India",
+    "latitude": 23.0225,
+    "longitude": 72.5714,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Surat, Gujarat",
+    "city": "Surat",
+    "state": "Gujarat",
+    "country": "India",
+    "latitude": 21.1702,
+    "longitude": 72.8311,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Jaipur, Rajasthan",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "latitude": 26.9124,
+    "longitude": 75.7873,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Lucknow, Uttar Pradesh",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "latitude": 26.8467,
+    "longitude": 80.9462,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Indore, Madhya Pradesh",
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "latitude": 22.7196,
+    "longitude": 75.8577,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Bhopal, Madhya Pradesh",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "latitude": 23.2599,
+    "longitude": 77.4126,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Goa (Panaji), Goa",
+    "city": "Panaji",
+    "state": "Goa",
+    "country": "India",
+    "latitude": 15.4909,
+    "longitude": 73.8278,
+    "place_type": "city"
+  },
+  {
+    "display_name": "Belagavi (Belgaum), Karnataka",
+    "city": "Belagavi",
+    "state": "Karnataka",
+    "country": "India",
+    "latitude": 15.8497,
+    "longitude": 74.4977,
+    "place_type": "city"
+  }
+]
