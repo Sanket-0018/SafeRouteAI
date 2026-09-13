@@ -11,6 +11,7 @@ export default function Header({
 }) {
   const isOnline = apiStatus === 'ok';
   const isOffline = apiStatus === 'offline';
+  const isChecking = apiStatus === 'checking';
 
   return (
     <header className="app-header">
@@ -52,10 +53,18 @@ export default function Header({
             className={`status-pill ${
               isOnline ? 'status-online' : isOffline ? 'status-offline' : 'status-checking'
             }`}
-            title={isOnline ? 'FastAPI & ML backend connected' : 'Backend connection offline'}
+            title={
+              isOnline
+                ? 'FastAPI & ML backend connected'
+                : isChecking
+                ? 'Checking backend connection...'
+                : 'Backend connection offline'
+            }
           >
             <span className="status-dot" />
-            <span className="status-text">{isOnline ? 'Online' : 'Offline'}</span>
+            <span className="status-text">
+              {isOnline ? 'Online' : isChecking ? 'Checking...' : 'Offline'}
+            </span>
           </div>
 
           <button

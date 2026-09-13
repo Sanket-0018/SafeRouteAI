@@ -54,14 +54,22 @@ export default function App() {
 
   // Check health on mount
   const checkHealth = useCallback(async () => {
+    setApiStatus('checking');
     try {
       const health = await fetchHealth();
-      setApiStatus(health.status === 'ok' ? 'ok' : 'degraded');
-      setGlobalError(null);
+      if (health && (health.status === 'ok' || health.data_file_loaded)) {
+        setApiStatus('ok');
+        setGlobalError(null);
+      } else {
+        setApiStatus('degraded');
+        setGlobalError(null);
+      }
     } catch (err) {
+      console.warn('Backend health check failed:', err);
       setApiStatus('offline');
+      const target = API_BASE_URL ? ` at ${API_BASE_URL}` : '';
       setGlobalError(
-        `Unable to connect to SafeRoute AI backend at ${API_BASE_URL}. Ensure uvicorn is running.`
+        `Unable to connect to SafeRoute AI backend${target}. Ensure uvicorn is running.`
       );
     }
   }, []);
@@ -195,8 +203,13 @@ export default function App() {
           <div className="error-text-content">
             <strong>Connection notice:</strong> {globalError}
           </div>
-          <button className="btn-retry" onClick={checkHealth}>
-            Retry
+          <button
+            className="btn-retry"
+            onClick={() => checkHealth()}
+            disabled={apiStatus === 'checking'}
+            title="Retry connecting to SafeRoute AI backend"
+          >
+            {apiStatus === 'checking' ? 'Checking...' : 'Retry'}
           </button>
         </div>
       )}

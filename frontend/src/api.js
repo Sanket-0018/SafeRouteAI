@@ -5,9 +5,14 @@
  */
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL !== undefined
-    ? import.meta.env.VITE_API_BASE_URL
+  import.meta.env.VITE_API_BASE_URL !== undefined && import.meta.env.VITE_API_BASE_URL !== ''
+    ? import.meta.env.VITE_API_BASE_URL.replace(/\/$/, '')
     : (import.meta.env.DEV ? 'http://localhost:8000' : '');
+
+export function getApiUrl(endpoint) {
+  const cleanEndpoint = endpoint.startsWith('/') ? endpoint : `/${endpoint}`;
+  return API_BASE_URL ? `${API_BASE_URL}${cleanEndpoint}` : cleanEndpoint;
+}
 
 class ApiError extends Error {
   constructor(message, status, detail) {
@@ -19,7 +24,7 @@ class ApiError extends Error {
 }
 
 async function request(endpoint, options = {}) {
-  const url = `${API_BASE_URL}${endpoint}`;
+  const url = getApiUrl(endpoint);
   try {
     const response = await fetch(url, {
       ...options,
@@ -48,7 +53,7 @@ async function request(endpoint, options = {}) {
 }
 
 export async function fetchHealth() {
-  return request('/health');
+  return request('/health', { cache: 'no-store' });
 }
 
 export async function fetchStats() {
