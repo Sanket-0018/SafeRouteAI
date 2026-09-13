@@ -20,21 +20,30 @@ client = TestClient(app)
 
 
 # ──────────────────────────────────────────────────────────────────────────────
-# 1. GET /
+# 1. GET / and GET /api
 # ──────────────────────────────────────────────────────────────────────────────
 
 def test_root_status():
     resp = client.get("/")
     assert resp.status_code == 200
+    assert "text/html" in resp.headers.get("content-type", "")
 
 
 def test_root_structure():
-    resp = client.get("/")
+    resp = client.get("/api")
+    assert resp.status_code == 200
     data = resp.json()
     assert data["name"] == "SafeRoute AI"
     assert "endpoints" in data
     assert "responsible_ai_notice" in data
     assert "version" in data
+
+
+def test_api_info_alias():
+    resp = client.get("/api/info")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["name"] == "SafeRoute AI"
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -376,3 +385,16 @@ def test_check_risk_get_endpoint():
     data = resp.json()
     assert data["covered"] is True
     assert "Late Night" in data["time_window"]
+
+
+def test_static_favicon():
+    resp = client.get("/favicon.svg")
+    assert resp.status_code == 200
+    assert "svg" in resp.headers.get("content-type", "").lower()
+
+
+def test_static_bob_icon():
+    resp = client.get("/ibm-bob-icon.png")
+    assert resp.status_code == 200
+    assert "image" in resp.headers.get("content-type", "").lower()
+
